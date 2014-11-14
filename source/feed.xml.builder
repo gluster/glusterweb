@@ -35,7 +35,15 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
       xml.updated File.mtime(article.source_file).iso8601
       xml.author {xml.name data.authors[nickname] ? data.authors[nickname].name : nickname}
       # xml.summary demote_headings(article.summary), "type" => "html"
-      xml.content demote_headings(article.body), "type" => "html"
+
+      content = demote_headings(article.body)
+
+      if data.site.blog_disclaimer
+        content += "<hr/>"
+        content += markdown_to_html data.site.blog_disclaimer
+      end
+
+      xml.content content, "type" => "html"
     end
   end
 end
