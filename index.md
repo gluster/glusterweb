@@ -1,5 +1,5 @@
 ---
-title: Storage for your Cloud and Delivery.
+title: Large, Scalable Storage for Cloud.
 ---
 
 # Large, Scalable storage for your Cloud.
