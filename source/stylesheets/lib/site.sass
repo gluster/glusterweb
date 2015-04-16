@@ -1,3 +1,7 @@
+
+// compass-style.org
+@import compass
+
 header.masthead
   text-align: center
 
@@ -7,3 +11,13 @@ header.masthead
 
 body > footer
   padding: 1rem 1rem 2rem
+  @include background-image(linear-gradient(rgba(black,0.98) 0%, rgba(black, 0.9) 10%,rgba(black, 0.85)100%))
+  color: rgba(white, 0.26)
+  a
+    +link-colors(rgba(white, 0.4), rgba(white, 0.6))
+  .last-modified
+    font-size: 80%
+ 
+@at-root .fa-irc
+  @extend .fa-slack
+

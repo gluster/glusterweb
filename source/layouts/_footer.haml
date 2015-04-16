@@ -1,24 +1,70 @@
 %footer#footer.text-center
 
   %hr.visible-print
+  .container.hidden-print.text-left
+    .row
 
-  - if data.site.footer_links
-    %ul.footer-nav-list
-      - data.site.footer_links.each do |name, url|
-        %li= link_to name.strip, url.strip, target: "_blank"
+      .col-md-2.col-xs-6
+        %h4 Social Media
+        %h5
+          %a{:href=>"http://twitter.com/gluster"}
+            %i.fa.fa-lg.fa-fw.fa-twitter
+            Twitter
+        %h5
+          %a{:href=>"https://www.facebook.com/GlusterInc"}
+            %i.fa.fa-lg.fa-fw.fa-facebook
+            Facebook
+        %h5
+          %a{:href=>"https://plus.google.com/communities/110022816028412595292"}
+            %i.fa.fa-lg.fa-fw.fa-google-plus
+            Google+
 
-  =# data.site.founding_year
-  - founding = data.site.founding_year
-  - year_string = if founding && founding.to_i < Time.now.year
-    - founding.to_s + '&ndash;' + Time.now.year.to_s
-  - else
-    - Time.now.year.to_s
+      .col-md-2.col-xs-6
+        %h4 People
+        %h5
+          %a{:href=>"irc://irc.freenode.net/#gluster"} 
+            %i.fa.fa-lg.fa-fw.fa-irc
+            IRC chat
+        %p.small Our chat channel is #gluster on irc.freenode.net
+        %h5
+          %a{:href=>"http://gluster.eventbrite.com"}
+            %i.fa.fa-lg.fa-fw.fa-users
+            Gluster Events
+        %p.small Check for a local Gluster event nearby!
 
-  = data.site.copyright || "&copy; #{year_string} #{data.site.owner || data.site.name}"
+      .col-md-4.col-xs-6
+        %h4 Mailing Lists
+        %h5
+          %a{:href=>"http://www.gluster.org/mailman/listinfo/gluster-users"}
+            %i.fa.fa-lg.fa-fw.fa-envelope
+            Gluster-users mailing list
+        %p General discussion by users and developers
+        %h5
+          %a{:href=>"http://www.gluster.org/mailman/listinfo/gluster-devel"}
+            %i.fa.fa-lg.fa-fw.fa-envelope
+            Gluster-devel mailing list
+        %p More in-depth technical discussion
+        
+      .col-md-4.col-xs-6
+        %h4 Legal
+        %p 
+          %strong GlusterFS is an open source distributed storage project,
+          openly governed by the Gluster community.
+          For more information about Gluster and our governance, see 
+          %a{:href=>"/about/"} the About-page.
+        %p
+          =# data.site.founding_year
+          - founding = data.site.founding_year
+          - year_string = if founding && founding.to_i < Time.now.year
+            - founding.to_s + '&ndash;' + Time.now.year.to_s
+          - else
+            - Time.now.year.to_s
+          = data.site.copyright || "&copy; #{year_string} #{data.site.owner || data.site.name}"
 
-  .last-modified
-    - modified_time = IO.popen(['git', 'log', '--pretty=format:%ai', current_page.source_file]).read.split(/\n/).first rescue nil
+          .last-modified
+            - modified_time = IO.popen(['git', 'log', '--pretty=format:%ai', current_page.source_file]).read.split(/\n/).first rescue nil
 
-    - if modified_time
-      Page last modified
-      = Time.parse(modified_time).utc.strftime('%a %-d %b %Y %H:%M %Z')
+            - if modified_time
+              %p.feed-meta 
+                Page last modified
+                = Time.parse(modified_time).utc.strftime('%a %-d %b %Y %H:%M %Z')
