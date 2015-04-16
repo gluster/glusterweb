@@ -20,3 +20,8 @@
 
   - unless data.page.hide_footer || request['params']['contentonly']
     = partial "footer"
+
+  -# the background image
+  - content_for :tail do
+    %script
+      $.backstretch("/images/cloud_bg.jpeg");
