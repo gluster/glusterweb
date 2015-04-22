@@ -67,6 +67,7 @@ keywords:
 # the entire git repo line).
 
 #openshift: 12fea2b4c1b98683b3eae078@site-user.rhcloud.com
+openshift: 55364e63fcf933948a000054@glusternew-tigert.rhcloud.com
 
 # If you'd rather use OpenShift via git instead of rsync, comment out
 # the above line and add your git URL as a 'production' remote.
