@@ -1,0 +1,125 @@
+---
+navigation: community
+---
+
+.row
+
+  .col-md-8.pull-left
+    .jumbotron
+      %h1
+        Get Involved
+        %small in the Gluster Community
+      %p.lead
+        A big thing in free software is the community itself. Getting help and
+        sharing ideas with others working on the same technology is useful. 
+        Passing the knowledge it to the next newcomer once you have learned 
+        your own ways around can be equally rewarding.
+      %p
+        You can follow the social channels listed in the bottom of every web
+        page to stay current with new releases, events and other news. But if you
+        want to dive more into the community, join the mailing lists and IRC 
+        channels.
+
+  .col-md-4.pull-right.sidebox
+    %h2
+      Weekly Meeting
+    %p.lead
+      Our weekly community meeting happens every wednesday.
+      
+    %p
+      The meeting starts at 12:00 UTC on #gluster-meeting IRC channel and it
+      is open to anyone who is interested in Gluster and the community.
+      A convenient way to convert the meeting time to your local time is with
+      this command:
+    %pre
+      date -d "12:00 UTC"
+    %p 
+      As a reminder, the meeting details are posted to the gluster-dev
+      mailing list earlier that day. 
+
+    %h2 Development
+    %h4
+      =link_to "Source Code", "https://forge.gluster.org"      
+    %p 
+      GlusterFS and related projects have their git repositories and other 
+      resources on
+      =link_to "GlusterForge", "https://forge.gluster.org"      
+      &mdash; check out what's happening around GlusterFS!
+
+    %h4 
+      =link_to "Bug Tracking", "https://bugzilla.redhat.com/enter_bug.cgi?classification=Community"
+    %p
+      Gluster uses the Red Hat Bugzilla for development and bug tracking. 
+      Gluster can be found in the
+      =link_to "Community Projects", "https://bugzilla.redhat.com/enter_bug.cgi?classification=Community"
+      section.
+    %dl
+      %dt=link_to "&raquo; Report a problem in Gluster", "https://bugzilla.redhat.com/enter_bug.cgi?product=GlusterFS"
+      %dt=link_to "&raquo; Report a problem in Documentation", "https://bugzilla.redhat.com/enter_bug.cgi?product=Gluster-Documentation"
+
+
+
+  .col-md-8.pull-left            
+    %h3 Community IRC Chat
+
+    %p
+      If you need help, or want to get involved with our community,
+      join us in one of our 
+      %a(href="http://irchelp.org") IRC (realtime chat)
+      channels. Please be aware that people are from different timezones and
+      do not always follow the discussion closely, so you might not get an 
+      answer right away. In that case you could post your question to the
+      gluster users mailing list instead.
+      
+    %p
+      Our IRC channels are on 
+      %a( href="http://freenode.net" ) freenode
+      network.
+      
+    %h4 #gluster
+    %p 
+      Generic discussion. If you have questions about GlusterFS or need help 
+      setting things up, start here. 
+
+    %h4 #gluster-dev
+    %p 
+      Developer channel, for topics related to developing glusterfs and 
+      related projects. 
+
+    %h4 #gluster-meeting
+    %p 
+      Dedicated channel for IRC meetings. We have a
+      %a( href="https://wiki.debian.org/MeetBot" ) MeetBot
+      (named ZodBot) providing convenience with with meeting notes.
+
+    %h3 Mailing Lists
+    =image_tag "interact-list-devel.png", class: "pull-right"
+    %p 
+      A lot of the development discussions and coordination and happens on 
+      our mailing lists because it enables discussion between people that
+      are on different timezones. We have two mailing lists to separate 
+      core GlusterFS development communication from everything else:
+      
+    %h4=link_to "Gluster Users", "http://www.gluster.org/mailman/listinfo/gluster-users"
+    %p 
+      General GlusterFS discussion by users and developers. If you have 
+      questions or need help, we try to help you here.
+    
+    %h4=link_to "Gluster Devel", "http://www.gluster.org/mailman/listinfo/gluster-devel"
+    %p
+      The developers mailing list is reserved for planning and discussing core
+      GlusterFS development.
+
+    %h3 Local Events and Meetings
+    =image_tag "interact-meetup.png", class: "pull-right"
+    %p 
+      Find other Gluster users and developers near you! Currently meetings are somewhat
+      scattered around various services and groups within, apologies for that, while are sorting
+      out the bits and are trying to gather them all in one place. In the meanwhile
+      please check the following:
+    
+    %p=link_to "&raquo; Gluster EventBrite Group", "http://gluster.eventbrite.com/"
+    -# %p=link_to "&raquo; Gluster MeetUp Group", "http://www.meetup.com/GlusterFS/"
+    %p=link_to "&raquo; Gluster Silicon-Valley MeetUp Group", "http://www.meetup.com/GlusterFS-Silicon-Valley/"
+    %p=link_to "&raquo; GlusterFS India MeetUp Group", "http://www.meetup.com/glusterfs-India/"
+
