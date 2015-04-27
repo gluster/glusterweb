@@ -1,23 +1,39 @@
+// Gluster specific styling..
 
-// compass-style.org
 @import compass
 
+body
+  padding-top: 70px
+     
 header.masthead
   text-align: center
+  background: rgba(black, 0.9)
 
   nav
     max-width: 50%
     margin: 0 auto
 
+.navbar-brand
+  #logo
+    margin-top: -4px
+
+@media (min-width: $screen-md-min)
+  .sidebox
+    margin-top: 52px
+    background: rgba(white, 0.6)
+    @include border-radius(12px)
+    padding-bottom: 12px
+
 body > footer
   padding: 1rem 1rem 2rem
-  @include background-image(linear-gradient(rgba(black,0.98) 0%, rgba(black, 0.9) 10%,rgba(black, 0.85)100%))
-  color: rgba(white, 0.26)
-  a
-    +link-colors(rgba(white, 0.4), rgba(white, 0.6))
+  //@include background-image(linear-gradient(rgba(black,0.98) 0%, rgba(black, 0.9) 10%,rgba(black, 0.85)100%))
+  //color: rgba(white, 0.26)
+  //a
+  //  +link-colors(rgba(white, 0.4), rgba(white, 0.6))
   .last-modified
     font-size: 80%
- 
+
+// "irc" alias for FontAwesome so its easier to remember :-)
 @at-root .fa-irc
   @extend .fa-slack
 
