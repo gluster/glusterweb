@@ -1,7 +1,6 @@
 # Web Content for www.gluster.org
 
-It is based on [https://github.com/OSAS/middleman-planet](middleman-planet)
-which in turn is based on [https://github.com/OSAS/middleman-springboard](middleman-springboard).
+It is based on [https://github.com/OSAS/middleman-springboard](middleman-springboard).
 
 # Middleman-Springboard
 
