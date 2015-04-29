@@ -17,12 +17,12 @@
         %li
           %a{ :href=>"/download/" }
             %i.fa.fa-lg.fa-fw.fa-download
-            Download
+            %span.hidden-sm Download
 
         %li.dropdown
           %a.dropdown-toggle( href="#" data-toggle="dropdown" role="button" aria-expanded="false" )
             %i.fa.fa-lg.fa-fw.fa-graduation-cap
-            Documentation
+            %span.hidden-sm Documentation
             %span.caret
           %ul.dropdown-menu( role="menu" )
             %li
@@ -38,7 +38,7 @@
         %li.dropdown
           %a.dropdown-toggle( href="#" data-toggle="dropdown" role="button" aria-expanded="false" )
             %i.fa.fa-lg.fa-fw.fa-bullhorn
-            Community
+            %span.hidden-sm Community
             %span.caret
           %ul.dropdown-menu( role="menu" )
             %li
@@ -56,26 +56,20 @@
         %li
           %a{ :href=>"/consultants/" } 
             %i.fa.fa-lg.fa-fw.fa-heart
-            Support
+            %span.hidden-sm Support
       %ul.nav.navbar-nav.navbar-right
         %li
           %a( href="http://twitter.com/gluster" title="Gluster on Twitter" )
-            %span.hidden-xs
-              %i.fa.fa-lg.fa-fw.fa-twitter
-            %span.visible-xs
-              %i.fa.fa-lg.fa-fw.fa-twitter
+            %i.fa.fa-lg.fa-fw.fa-twitter
+            %span.visible-xs-inline
               Twitter
         %li
           %a( href="https://www.facebook.com/GlusterInc" title="Gluster on Facebook" )
-            %span.hidden-xs
-              %i.fa.fa-lg.fa-fw.fa-facebook
-            %span.visible-xs
-              %i.fa.fa-lg.fa-fw.fa-facebook
+            %i.fa.fa-lg.fa-fw.fa-facebook
+            %span.visible-xs-inline
               Facebook
         %li
           %a( href="https://plus.google.com/communities/110022816028412595292" title="Gluster on Google+" )
-            %span.hidden-xs
-              %i.fa.fa-lg.fa-fw.fa-google-plus
-            %span.visible-xs
-              %i.fa.fa-lg.fa-fw.fa-google-plus
+            %i.fa.fa-lg.fa-fw.fa-google-plus
+            %span.visible-xs-inline
               Google+
