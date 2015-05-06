@@ -14,7 +14,7 @@
 
     #navbar.navbar-collapse.collapse
       %ul.nav.navbar-nav
-        %li
+        %li0
           %a{ :href=>"/download/" }
             %i.fa.fa-lg.fa-fw.fa-download
             %span.hidden-sm Download
@@ -27,13 +27,21 @@
           %ul.dropdown-menu( role="menu" )
             %li
               %a{ :href=>"http://gluster.readthedocs.org/en/latest/Quick-Start-Guide/Quickstart/" }
-                %strong Quick Start Installation Guide
+                %strong
+                  Quick Start Guide 
+                %span.text-muted &mdash; Start here if you are new!
             %li
-              %a{ :href=>"http://gluster.readthedocs.org/en/latest/Administrator%20Guide/GlusterFS%20Introduction/" }
-                Administrator Guide
+              %a{ :href=>"http://gluster.readthedocs.org/en/latest/Install-Guide/Overview/" }
+                More detailed Installation Guide
+            %li
+              %a{ :href=>"http://gluster.readthedocs.org/en/latest/Administrator%20Guide/README/" }
+                Administrators' Guide
             %li
               %a{ :href=>"http://gluster.readthedocs.org/en/latest/Developer-guide/Developers%20Index/" }
-                Developer Guide
+                GlusterFS Developer Guide
+            %li
+              %a{ :href=>"http://gluster.readthedocs.org/en/latest/Upgrade-Guide/README/" }
+                Upgrade Guide
             %li.divider
             %li
               %a{ :href=>"http://gluster.readthedocs.org/en/latest/" }
