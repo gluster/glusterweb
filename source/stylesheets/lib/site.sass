@@ -30,3 +30,16 @@ body > footer
 @at-root .fa-irc
   @extend .fa-slack
 
+.eventbanner
+  @include border-radius(7px)
+  $bannercolor: rgba(#efa724, 0.8)
+  background: $bannercolor
+  box-shadow: 0px 1px 14px rgba(black, 0.1)
+  color: darken($bannercolor, 80)
+  h2
+    margin-top: 8px
+  margin-top: 12px
+  //margin-left: -4px
+  a
+    +link-colors(darken(#dc322f, 20%))
+
