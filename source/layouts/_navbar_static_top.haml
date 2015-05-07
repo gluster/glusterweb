@@ -10,7 +10,10 @@
         %span.icon-bar
         %span.icon-bar
       %a.navbar-brand( href="/" title="Home" )
-        =image_tag "/images/logo.svg", id: "logo", class: "logo isSVG", alt: data.site.name
+        %span#logo 
+          %i.fa.fa.fa-fw.fa-home
+          Gluster
+        -# =image_tag "/images/logo.svg", id: "logo", class: "logo isSVG", alt: data.site.name
 
     #navbar.navbar-collapse.collapse
       %ul.nav.navbar-nav
