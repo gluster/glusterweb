@@ -13,31 +13,47 @@ no_container: true
         hardware, you can create large, distributed storage solutions
         for media streaming, data analysis, and other data- and 
         bandwidth-intensive tasks. GlusterFS is free and open source software.
+
+        %h2
+          %a( href="http://gluster.readthedocs.org/en/latest/Quick-Start-Guide/Quickstart/" )
+            %i.fa.fa-download
+            Install now!
+        %small.text-muted
+          %strong
+            GlusterFS version 3.7
+          adds support for NFSv4 and Kerberos support with multiple NFS-servers,
+          improved bitrot detection and other improvements.
+          =link_to "Read the complete release announcement here. [FIXME: link]", "#"
         
 .container
   .row
     .col-sm-12.col-md-4
-      %h2
-        %a( href="/download/" ) Item 1
+      %h2 
+        %a( href="http://planet.gluster.org" )
+          %i.fa.fa-lg.fa-globe
+          Planet Gluster
       %p
-        =lorem.sentences(3)
-      %p
-        =link_to lorem.sentence, "#"
+        News and blog posts related to GlusterFS collected into one feed,
+        for you to follow!
         
     .col-sm-12.col-md-4
-      %h2
-        %a( href="/download/" ) Item 1
+      %h2 
+        %a( href="/community" )
+          %i.fa.fa-lg.fa-group
+          Join the Community!
       %p
-        =lorem.sentences(3)
-      %p
-        =link_to lorem.sentence, "#"
+        GlusterFS is brought to you by a community of people like you, 
+        from around the world. Help us make it even better!
         
-    .col-sm-12.col-md-4
+    .col-sm-12.col-md-4.eventbanner
       %h2
-        %a( href="/download/" ) Item 1
+        %a{ :href=>"/events/summit2015/" } Gluster Summit 2015
+       
       %p
-        =lorem.sentences(3)
+        On May 12th and 13th, the Gluster contributor community is coming 
+        together to discuss the state of Gluster and the plans for the 
+        future in sunny Barcelona, Spain.
       %p
-        =link_to lorem.sentence, "#"
+        %a{ :href=>"/events/summit2015/" } &raquo; Read more
         
 

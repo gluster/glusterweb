@@ -7,8 +7,11 @@ body
 
 .navbar-brand
   #logo
-    margin-top: 1px
-
+    font-family: Lato
+    font-size: 26px
+    font-weight: 800
+    text-transform: uppercase
+    +link-colors(white, $gray-lighter)
 
 @media (min-width: $screen-md-min)
   .sidebox
@@ -34,8 +37,10 @@ body > footer
   @include border-radius(7px)
   $bannercolor: rgba(#efa724, 0.8)
   background: $bannercolor
+  +background-image(linear-gradient(174deg, lighten($bannercolor, 20%) 0%, lighten($bannercolor, 5%) 49%, darken($bannercolor, 0%) 50%, darken($bannercolor, 5%) 100% )  )
+    
   box-shadow: 0px 1px 14px rgba(black, 0.1)
-  color: darken($bannercolor, 80)
+  color: $gray-darker
   h2
     margin-top: 8px
   margin-top: 12px
