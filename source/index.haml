@@ -29,22 +29,13 @@ no_container: true
 .container
   .row
     .col-sm-12.col-md-4
-      %h2 
-        %a( href="http://planet.gluster.org" )
-          %i.fa.fa-lg.fa-globe
-          Planet Gluster
+      %h2
+        Planet Gluster News
+      = simple_feed_list "http://planet.gluster.org/feed.xml", 5, "author"
       %p
-        News and blog posts related to GlusterFS collected into one feed,
-        for you to follow!
-        
-    .col-sm-12.col-md-4
-      %h2 
-        %a( href="/community" )
-          %i.fa.fa-lg.fa-group
-          Join the Community!
-      %p
-        GlusterFS is brought to you by a community of people like you, 
-        from around the world. Help us make it even better!
+        %a{:href=>"http://planet.gluster.org"}
+          %i.fa.fa-fw.fa-external-link-square
+          More blog posts and news in Planet Gluster
         
     .col-sm-12.col-md-4.eventbanner
       %h2
@@ -57,4 +48,25 @@ no_container: true
       %p
         %a{ :href=>"/events/summit2015/" } &raquo; Read more
         
+    .col-sm-12.col-md-4
+      %h2 Get Involved!
+      %p
+        GlusterFS is brought to you by a community of people like you, 
+        from around the world. Help us make it even better!
+      %h5
+        %a( href="/community/")
+          %i.fa.fa-fw.fa-group
+          Learn to know the community
+      %h5
+        %a( href="http://gluster.org/community/documentation/index.php/Features")
+          %i.fa.fa-fw.fa-comment
+          Suggest a feature!
+      %h5
+        %a( href="https://bugzilla.redhat.com/enter_bug.cgi?product=GlusterFS" )
+          %i.fa.fa-fw.fa-bug
+          Report a problem in Gluster
+      %h5
+        %a( href="https://bugzilla.redhat.com/enter_bug.cgi?product=Gluster-Documentation" )
+          %i.fa.fa-fw.fa-bug
+          Report a problem in Documentation
 
