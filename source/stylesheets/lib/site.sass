@@ -33,6 +33,16 @@ body > footer
 @at-root .fa-irc
   @extend .fa-slack
 
+//Planet feed styling for frontpage
+@import "compass/typography/text/ellipsis"
+ul.feed-list
+  padding-left: 6px
+  li
+    @include ellipsis(no-wrap)
+  li:before
+    content: "\00bb"
+    
+//gluster summit etc announcements
 .eventbanner
   @include border-radius(7px)
   $bannercolor: rgba(#efa724, 0.8)
