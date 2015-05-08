@@ -22,10 +22,10 @@ body
 
 body > footer
   padding: 1rem 1rem 2rem
-  //@include background-image(linear-gradient(rgba(black,0.98) 0%, rgba(black, 0.9) 10%,rgba(black, 0.85)100%))
-  //color: rgba(white, 0.26)
-  //a
-  //  +link-colors(rgba(white, 0.4), rgba(white, 0.6))
+//  @include background-image(linear-gradient(rgba(black,0.64) 0%, rgba(black, 0.6) 5%,rgba(black, 0.55)100%))
+//  color: rgba(white, 0.26)
+//  a
+//    +link-colors(rgba(white, 0.4), rgba(white, 0.6))
   .last-modified
     font-size: 80%
 
@@ -58,3 +58,14 @@ ul.feed-list
   a
     +link-colors(darken(#dc322f, 20%))
 
+.jumbotron
+  blockquote
+    // the "showcase" quotes in front page
+    border-left: transparent
+    p
+      font-style: italic
+    p:before
+      content: "\201C"
+    p:after
+      content: "\201D"
+      
