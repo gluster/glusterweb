@@ -21,6 +21,8 @@ owner: Red Hat, Inc.
 # Manual copyright string, to override the automatic one
 #copyright: "&copy; 2013 YOUR_NAME_HERE"
 
+# Location where this repo exists on github
+github: gluster/glusterweb
 
 # Optional footer links
 #footer_links:
