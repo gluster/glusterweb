@@ -1,3 +1,4 @@
+# coding: utf-8
 ###
 # Site settings
 ###
@@ -52,7 +53,7 @@ set :partials_dir, 'layouts'
 ###
 
 activate :blog do |blog|
-  blog.prefix = 'blog/'
+  blog.prefix = 'news/'
   blog.layout = 'post'
   blog.tag_template = 'tag.html'
   blog.calendar_template = 'calendar.html'
@@ -80,8 +81,8 @@ end
 
 # Enable blog layout for all blog pages
 with_layout :post do
-  page '/blog.html'
-  page '/blog/*'
+  page '/news.html'
+  page '/news/*'
 end
 
 # Make pretty URLs
@@ -137,26 +138,26 @@ ready do
   sitemap.resources.group_by { |p| p.data['author'] }.each do |author, pages|
     next unless author
 
-    proxy "/blog/author/#{author.parameterize.downcase}.html",
+    proxy "/news/author/#{author.parameterize.downcase}.html",
           'author.html',
           locals: { author: author, pages: pages },
           ignore: true
   end
 
-  proxy '/blog/author.html', 'author.html', ignore: true
+  proxy '/news/author.html', 'author.html', ignore: true
 
   # Add blog feeds
   blog.tags.each do |tag_name, _tag_data|
     next unless tag_name
 
-    proxy "/blog/tag/#{tag_name.downcase}.xml",
+    proxy "/news/tag/#{tag_name.downcase}.xml",
           'feed.xml',
           locals: { tag_name: tag_name },
           ignore: true
   end
 
-  proxy '/blog/feed.xml', 'feed.xml', ignore: true
-  proxy '/blog/tag/index.html', 'tag.html', ignore: true
+  proxy '/news/feed.xml', 'feed.xml', ignore: true
+  proxy '/news/tag/index.html', 'tag.html', ignore: true
 end
 
 ###
