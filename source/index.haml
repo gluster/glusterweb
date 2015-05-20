@@ -17,15 +17,11 @@ no_container: true
         %h2
           %a( href="http://gluster.readthedocs.org/en/latest/Quick-Start-Guide/Quickstart/" )
             %i.fa.fa-download
-            Install now!
-        %small.text-muted
-          %strong
-            GlusterFS version 3.7
-          adds support for NFSv4 and Kerberos with multiple NFS-servers,
-          bitrot detection, and other improvements, and bugfixes.
-        %small.text-muted.clearfix
-          =link_to "Read the full release announcement. [FIXME: link]", "#"
-        
+            Install GlusterFS
+        .text-muted
+          Our quickstart instructions guide you from selecting the right 
+          harware through the actual installation.
+          
 .container
   .row
     .col-sm-12.col-md-4
@@ -37,17 +33,26 @@ no_container: true
           %i.fa.fa-fw.fa-external-link-square
           More blog posts and news in Planet Gluster
         
-    .col-sm-12.col-md-4.eventbanner
+    .col-md-4.col-sm-12.eventbanner
       %h2
-        %a{ :href=>"/events/summit2015/" } Gluster Summit 2015
-       
+        %a{ :href=>"/news/2015/05/glusterfs-3.7-is-available/" } GlusterFS 3.7.0 available!
+      
+      %p 
+        We are happy to announce that Gluster 3.7.0 is now generally 
+        available.  This release contains several new features, bug fixes
+        and minor improvements.
       %p
-        On May 12th and 13th, the Gluster contributor community is coming 
-        together to discuss the state of Gluster and the plans for the 
-        future in sunny Barcelona, Spain.
-      %p
-        %a{ :href=>"/events/summit2015/" } &raquo; Read more
-        
+        %a{ :href=>"/news/2015/05/glusterfs-3.7-is-available/" } &raquo; Read the full announcement
+      
+      -require 'rss'
+      -require 'open-uri'
+      -url = 'http://localhost:4567/news/tag/frontpage.xml'
+      -open(url) do |rss|
+        -feed = RSS::Parser.parse(rss)
+        -feed.items.each do |item|
+          =puts "Item: #{item.title}"
+
+      
     .col-sm-12.col-md-4
       %h2 Get Involved!
       %p
