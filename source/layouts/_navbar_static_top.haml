@@ -23,6 +23,18 @@
             %span.hidden-sm Install
         %li.dropdown
           %a.dropdown-toggle( href="#" data-toggle="dropdown" role="button" aria-expanded="false" )
+            %i.fa.fa-lg.fa-fw.fa-newspaper-o
+            %span.hidden-sm News
+            %span.caret
+          %ul.dropdown-menu( role="menu" )
+            %li
+              %a{ :href=>"/news" }
+                Gluster News and Announcements
+            %li
+              %a{ :href=>"http://planet.gluster.org" }
+                Planet Gluster - News and blog posts related to storage and gluster
+        %li.dropdown
+          %a.dropdown-toggle( href="#" data-toggle="dropdown" role="button" aria-expanded="false" )
             %i.fa.fa-lg.fa-fw.fa-graduation-cap
             %span.hidden-sm Documentation
             %span.caret
@@ -56,34 +68,16 @@
             %span.caret
           %ul.dropdown-menu( role="menu" )
             %li
-              %a{ :href=>"http://planet.gluster.org" }
-                Planet Gluster - News and blog posts related to storage and gluster
+              %a{ :href=>"/community/" }
+                How to get involved?
             %li
               %a{ :href=>"http://forge.gluster.org" }
                 Forge - The development machine
-            %li.divider
-            %li
-              %a{ :href=>"/community/" }
-                How to get involved?
 
 
         %li
           %a{ :href=>"/consultants/" } 
             %i.fa.fa-lg.fa-fw.fa-heart
             %span.hidden-sm Support
-      %ul.nav.navbar-nav.navbar-right
-        %li
-          %a( href="http://twitter.com/gluster" title="Gluster on Twitter" )
-            %i.fa.fa-lg.fa-fw.fa-twitter
-            %span.visible-xs-inline
-              Twitter
-        %li
-          %a( href="https://www.facebook.com/GlusterInc" title="Gluster on Facebook" )
-            %i.fa.fa-lg.fa-fw.fa-facebook
-            %span.visible-xs-inline
-              Facebook
-        %li
-          %a( href="https://plus.google.com/communities/110022816028412595292" title="Gluster on Google+" )
-            %i.fa.fa-lg.fa-fw.fa-google-plus
-            %span.visible-xs-inline
-              Google+
+
+
