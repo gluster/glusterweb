@@ -4,8 +4,9 @@ navigation: community
 
 .jumbotron
   %h1 
-    %i.fa.fa-download
-    Install GlusterFS
+    %i.fa.fa-download.text-primary
+    %a( href="http://gluster.readthedocs.org/en/latest/Quick-Start-Guide/Quickstart/") 
+      Install GlusterFS
 
   %p
     Our
@@ -13,7 +14,7 @@ navigation: community
     is a great way to get started - but if you wish to download the GlusterFS
     source code to build it yourself, it is available here:
     
-  %h4 Download the source code  
+  %h4 Download the source code:  
   %ul
     %p=link_to "GlusterFS version 3.7 is the latest version at the moment.", "http://download.gluster.org/pub/gluster/glusterfs/LATEST/", :target => "_blank" 
     %p=link_to "Gluster 3.6 (Stable)", "http://download.gluster.org/pub/gluster/glusterfs/3.6/", :target => "_blank" 
