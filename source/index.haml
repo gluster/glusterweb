@@ -44,15 +44,6 @@ no_container: true
       %p
         %a{ :href=>"/news/2015/05/glusterfs-3.7-is-available/" } &raquo; Read the full announcement
       
-      -require 'rss'
-      -require 'open-uri'
-      -url = 'http://localhost:4567/news/tag/frontpage.xml'
-      -open(url) do |rss|
-        -feed = RSS::Parser.parse(rss)
-        -feed.items.each do |item|
-          =puts "Item: #{item.title}"
-
-      
     .col-sm-12.col-md-4
       %h2 Get Involved!
       %p
