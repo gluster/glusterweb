@@ -1,3 +1,4 @@
+# coding: utf-8
 # Various useful functions for Middleman-based sites
 class SiteHelpers < Middleman::Extension
   def initialize(app, options_hash = {}, &block)
@@ -108,7 +109,7 @@ class SiteHelpers < Middleman::Extension
 
     # Fetch and return the entries of an Atom or RSS feed
     def simple_feed(feed_url, limit = 10)
-      stamp = Date.new(2009,11,26).to_time.to_i
+      stamp = Time.now.to_i
       feed_url = "#{feed_url}?cachebuster2000=#{stamp}"
       feed = Feedjira::Feed.parse(open(feed_url).read)
 
