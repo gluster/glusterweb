@@ -4,9 +4,19 @@ title: Release Schedule
 
 # Gluster Release Schedule
 
-### Gluster FS 3.7
+Generally there are 3 active versions of glusterfs. The minor release of those versions has been planned every month.
+As of now the active versions of glusterfs are glusterfs-3.5, glusterfs-3.6, and glusterfs 3.7.
+This is the tentative release schedule for glusterfs.
 
-  * **9th Mar, 2015** -- Feature freeze & Branching
-  * **28th Apr, 2015** -- 3.7.0 Beta Release
-  * **14th May, 2015** -- Official GlusterFS 3.7.0 release (GA)
+10th of every month: A minor release of the glusterfs-3.5 version
+20th of every month: A minor release of the glusterfs-3.6 version
+30th of every month: A minor release of the glusterfs-3.7 version
+
+The dates are tentative and below you can see the next immediet release that is going to happen and its data.
+
+# Upcoming release
+
+### GlusterFS 3.6
+
+* **26th Aug, 2015** -- Official release of GlusterFS 3.6.5 release (GA)
 
