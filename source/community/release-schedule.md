@@ -17,5 +17,5 @@ The dates are tentative and below you can see the next immediate release that is
 
 ### GlusterFS 3.6
 
-* **26th Aug, 2015** -- Official release of GlusterFS 3.6.5 release (GA)
+* **4th Sep, 2015** -- Official release of GlusterFS 3.7.4 release (GA)
 
