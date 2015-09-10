@@ -314,3 +314,7 @@ end
 activate :deploy do |deploy|
   deploy_config.each { |key, val| deploy[key] = val }
 end
+
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-10444844-3'
+end
