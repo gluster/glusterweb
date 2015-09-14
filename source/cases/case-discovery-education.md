@@ -6,7 +6,7 @@ The classroom of the 21st Century is no longer just about freshly sharpened penc
 
 A logical choice to provide such content is Discovery Communications, a leading non-fiction media company dedicated to satisfying curiosity, engaging and entertaining viewers with high-quality content on worldwide television networks including Discovery Channel, Animal Planet and Science Channel. Through its [Discovery Education division](http://www.discoveryeducation.com/who-we-are/about-discovery-education.cfm), it does precisely that.
 
-Discovery Education services are available in over half of all U.S. schools and primary schools in England, as well as 50 countries around the world. The technical challenges to deliver thousands of videos to classrooms across the globe is nowhere near a trivial task. But by using [GlusterFS](http://gluster.org/), Discovery Education is excelling at this job.
+Discovery Education services are available in over half of all U.S. schools and primary schools in England, as well as 50 countries around the world. The technical challenges to deliver thousands of videos to classrooms across the globe is nowhere near a trivial task. But by using [GlusterFS](http://www.gluster.org/), Discovery Education is excelling at this job.
 
 According to Matt Blaha, Sr. Systems Engineer at Discovery Education, the use of GlusterFS was a natural extension of looking at their legacy systems, a mix of storage area network (SAN) and other data storage systems, and wanting to pull them into a more cohesive, unified system.
 
