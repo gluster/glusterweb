@@ -11,11 +11,3 @@ This is the tentative release schedule for glusterfs.
   * **20th of every month:** A minor release of the glusterfs-3.6 version
   * **30th of every month:** A minor release of the glusterfs-3.7 version
 
-The dates are tentative and below you can see the next immediate release that is going to happen and its data.
-
-# Upcoming release
-
-### GlusterFS 3.6
-
-* **4th Sep, 2015** -- Official release of GlusterFS 3.7.4 release (GA)
-
