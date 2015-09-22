@@ -8,6 +8,8 @@ Generally there are 3 active versions of glusterfs. The minor release of those v
 This is the tentative release schedule for glusterfs.
 
   * **10th of every month:** A minor release of the glusterfs-3.5 version
+  * 
   * **20th of every month:** A minor release of the glusterfs-3.6 version
+  * 
   * **30th of every month:** A minor release of the glusterfs-3.7 version
 
