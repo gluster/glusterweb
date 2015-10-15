@@ -37,8 +37,13 @@ class SiteHelpers < Middleman::Extension
     end
 
     def markdown_to_html(content)
-      content.strip!
-      Tilt['markdown'].new(config[:markdown]) { content }.render if content
+      return unless content
+
+      if content.match(/http/)
+        content.gsub!(/([^<])(http[^\s$]*)([^>])/, '\\1<\\2>\\3')
+      end
+
+      Tilt['markdown'].new(config[:markdown]) { content.strip }.render
     end
 
     def markdown_to_plaintext(content)
