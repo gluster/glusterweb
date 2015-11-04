@@ -1,6 +1,6 @@
 name: Gluster
 subhead: Scalable storage for your Cloud.
-domain: gluster.org
+domain: www.gluster.org
 
 # Be sure to set up and install Juvia before enabling!
 #has_comments: true
