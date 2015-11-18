@@ -1,4 +1,4 @@
-#Proposed Features for Gluster 3.8#
+# Proposed Features for Gluster 3.8
 
 Feature | Owner(s) | Feature Page | Patch(es) |Integrated Build|
 :-------|:---------|:-------------|:-------|:-----|
