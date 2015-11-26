@@ -7,4 +7,4 @@ be available later in 2016.
 
 Features planned for Gluster 3.8 can be found [here](/community/roadmap/3.8/).
 
-Features planned for Gluster 4.0 will appear here shortly.
+Features planned for Gluster 4.0 can be found [here](/community/roadmap/4.0/).
