@@ -22,3 +22,4 @@ Share modes / Share reservations | Raghavendra Talur, Poornima G, Soumya Koduri,
 Inotify (Stretch goal) | Soumya Koduri | TBD | TBD | TBD|
 Trash Improvements | Anoop CS,Jiffin Tony Thottan | TBD | TBD | TBD |
 iSCSI access for Gluster | Raghavendra Bhat, Vijay Bellur| TBD | TBD | TBD|
+pNFS Layout Recall | Jiffin Tony Thottan, Soumya Koduri | http://review.gluster.org/#/c/12367/3/wip/pNFS-Layout-Recall.md | TBD | TBD|
