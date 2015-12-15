@@ -1,4 +1,4 @@
-#Proposed Features for Gluster 3.8#
+# Proposed Features for Gluster 3.8
 
 Feature | Owner(s) | Feature Page | Patch(es) |Integrated Build|
 :-------|:---------|:-------------|:-------|:-----|
@@ -8,7 +8,7 @@ Enhance Quota enable/disable in glusterd | Vijaikumar, Manikandan | TBD | TBD | 
 Mandatory lock support for Multiprotocol environment| Anoop C S, Rajesh Joseph, Poornima G, Raghavendra Talur| <http://review.gluster.org/#/c/12014/1/in_progress/Mandatory+Locks.md> | TBD | TBD |
 User and Group Quotas | Vijaikumar, Manikandan | TBD | TBD | TBD |
 Hyperconvergence - Sharding aware Geo-replication | Aravinda, Kotresh| TBD | TBD | TBD |
-Tiering aware Geo-replication | Saravanakumar | TBD | TBD | TBD |
+Tiering aware Geo-replication | Saravanakumar | http://review.gluster.org/12417 http://review.gluster.org/12355 http://review.gluster.org/12326 http://review.gluster.org/12239 | TBD | TBD |
 Glusterfind and Bareos Integration | Milind Changire | TBD | TBD | TBD |
 Directory/Files filters for Geo-replication (Stretch Goal) | Kotresh, Aravinda | TBD | TBD |
 Add + Remove brick with Volume Tiering | Dan Lambright| TBD | TBD | TBD |
@@ -22,3 +22,4 @@ Share modes / Share reservations | Raghavendra Talur, Poornima G, Soumya Koduri,
 Inotify (Stretch goal) | Soumya Koduri | TBD | TBD | TBD|
 Trash Improvements | Anoop CS,Jiffin Tony Thottan | TBD | TBD | TBD |
 iSCSI access for Gluster | Raghavendra Bhat, Vijay Bellur| TBD | TBD | TBD|
+pNFS Layout Recall | Jiffin Tony Thottan, Soumya Koduri | http://review.gluster.org/#/c/12367/3/wip/pNFS-Layout-Recall.md | TBD | TBD|
