@@ -118,7 +118,7 @@ class SiteHelpers < Middleman::Extension
       feed_url = "#{feed_url}?cachebuster2000=#{stamp}"
       feed = Feedjira::Feed.parse(open(feed_url).read)
 
-      feed.entries.sort_by!(&:updated).reverse!
+      feed.entries.sort_by!(&:published).reverse!
 
       feed.entries.take(limit)
     end
