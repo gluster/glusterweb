@@ -28,14 +28,24 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
     nickname = article.data.author
 
     xml.entry do
+      modified_time = IO.popen(%W(git log --pretty=format:%ai --max-count=1 #{article.source_file}), &:read).to_time.iso8601 rescue nil
+
       xml.title article.title
       xml.link "rel" => "alternate", "href" => URI.join(site_url, article.url)
       xml.id URI.join(site_url, article.url)
       xml.published article.date.to_time.iso8601
-      xml.updated File.mtime(article.source_file).iso8601
+      xml.updated modified_time || article.date.to_time.iso8601
       xml.author {xml.name data.authors[nickname] ? data.authors[nickname].name : nickname}
       # xml.summary demote_headings(article.summary), "type" => "html"
-      xml.content demote_headings(article.body), "type" => "html"
+
+      content = demote_headings(article.body)
+
+      if data.site.blog_disclaimer
+        content += "<hr/>"
+        content += markdown_to_html data.site.blog_disclaimer
+      end
+
+      xml.content content, "type" => "html"
     end
   end
 end
