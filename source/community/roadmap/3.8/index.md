@@ -20,6 +20,6 @@ Sub-directory export for native protocol | Anand Avati, Vijay Bellur| TBD | TBD 
 RichACL support for GlusterFS | Rajesh Joseph + Volunteers| <http://www.gluster.org/community/documentation/index.php/Features/RichACL> | TBD | TBD |
 Share modes / Share reservations | Raghavendra Talur, Poornima G, Soumya Koduri, Rajesh Joseph, Anoop C S| TBD | TBD | TBD |
 Inotify (Stretch goal) | Soumya Koduri | TBD | TBD | TBD|
-Trash Improvements | Anoop CS,Jiffin Tony Thottan | TBD | TBD | TBD |
+Trash Improvements | Anoop C S, Jiffin Tony Thottan | <https://review.gluster.org/#/c/13399/> | <http://review.gluster.org/#/q/topic:bug-1264849+OR+topic:bug-1264847+OR+topic:bug-1264853+OR+topic:bug-1264857> | TBD |
 iSCSI access for Gluster | Raghavendra Bhat, Vijay Bellur| TBD | TBD | TBD|
 pNFS Layout Recall | Jiffin Tony Thottan, Soumya Koduri | http://review.gluster.org/#/c/12367/3/wip/pNFS-Layout-Recall.md | TBD | TBD|
