@@ -5,7 +5,7 @@ Feature | Owner(s) | Feature Page | Patch(es) |Integrated Build|
 Leases Support for Gluster | Poornima G, Soumya Koduri,Rajesh Joseph, Raghavendra Talur| <http://www.gluster.org/community/documentation/index.php/Features/Upcall-infrastructure#delegations.2Flease-locks>| TBD | TBD |
 Converged HA for NFS-Ganesha and Samba | Kaleb Keithley, Jose Rivera | TBD | TBD | TBD|
 Enhance Quota enable/disable in glusterd | Vijaikumar, Manikandan | TBD | TBD | TBD |
-Mandatory lock support for Multiprotocol environment| Anoop C S, Rajesh Joseph, Poornima G, Raghavendra Talur| <http://review.gluster.org/#/c/12014/1/in_progress/Mandatory+Locks.md> | TBD | TBD |
+Mandatory lock support for Multiprotocol environment | Anoop C S, Rajesh Joseph, Poornima G, Raghavendra Talur | <https://review.gluster.org/#/c/12014/> | <https://review.gluster.org/#/q/topic:bug-762184> | TBD |
 User and Group Quotas | Vijaikumar, Manikandan | TBD | TBD | TBD |
 Hyperconvergence - Sharding aware Geo-replication | Aravinda, Kotresh| TBD | TBD | TBD |
 Tiering aware Geo-replication | Saravanakumar | http://review.gluster.org/12417 http://review.gluster.org/12355 http://review.gluster.org/12326 http://review.gluster.org/12239 | TBD | TBD |
