@@ -23,3 +23,6 @@ Inotify (Stretch goal) | Soumya Koduri | TBD | TBD | TBD|
 Trash Improvements | Anoop C S, Jiffin Tony Thottan | <https://review.gluster.org/#/c/13399/> | <http://review.gluster.org/#/q/topic:bug-1264849+OR+topic:bug-1264847+OR+topic:bug-1264853+OR+topic:bug-1264857> | TBD |
 iSCSI access for Gluster | Raghavendra Bhat, Vijay Bellur| TBD | TBD | TBD|
 pNFS Layout Recall | Jiffin Tony Thottan, Soumya Koduri | http://review.gluster.org/#/c/12367/3/wip/pNFS-Layout-Recall.md | TBD | TBD|
+Management REST APIs | Aravinda VK | http://review.gluster.org/13214 | TBD | TBD|
+Gluster Eventing | Aravinda VK, Samikshan | http://review.gluster.org/13115 | TBD | TBD|
+Gluster Tools | Aravinda VK | https://github.com/gluster/glustertool/blob/master/README.md | TBD | TBD|
