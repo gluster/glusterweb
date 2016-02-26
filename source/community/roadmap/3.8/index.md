@@ -8,7 +8,7 @@ Enhance Quota enable/disable in glusterd | Vijaikumar, Manikandan | TBD | TBD | 
 Mandatory lock support for Multiprotocol environment | Anoop C S, Rajesh Joseph, Poornima G, Raghavendra Talur | <https://review.gluster.org/#/c/12014/> | <https://review.gluster.org/#/q/topic:bug-762184> | TBD |
 User and Group Quotas | Vijaikumar, Manikandan | TBD | TBD | TBD |
 Hyperconvergence - Sharding aware Geo-replication | Aravinda, Kotresh| TBD | TBD | TBD |
-Tiering aware Geo-replication | Saravanakumar | http://review.gluster.org/12417 http://review.gluster.org/12355 http://review.gluster.org/12326 http://review.gluster.org/12239 | TBD | TBD |
+Tiering aware Geo-replication | Saravanakumar | http://review.gluster.org/13515/ | http://review.gluster.org/12417 http://review.gluster.org/12355 http://review.gluster.org/12326 http://review.gluster.org/12239  | TBD |
 Glusterfind and Bareos Integration | Milind Changire | TBD | TBD | TBD |
 Directory/Files filters for Geo-replication (Stretch Goal) | Kotresh, Aravinda | TBD | TBD |
 Add + Remove brick with Volume Tiering | Dan Lambright| TBD | TBD | TBD |
