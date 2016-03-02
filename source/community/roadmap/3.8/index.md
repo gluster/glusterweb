@@ -26,3 +26,4 @@ pNFS Layout Recall | Jiffin Tony Thottan, Soumya Koduri | http://review.gluster.
 Management REST APIs | Aravinda VK | http://review.gluster.org/13214 | TBD | TBD|
 Gluster Eventing | Aravinda VK, Samikshan | http://review.gluster.org/13115 | TBD | TBD|
 Gluster Tools | Aravinda VK | https://github.com/gluster/glustertool/blob/master/README.md | TBD | TBD|
+Tests in DiSTAF | msvbhat, everyone | https://github.com/gluster/distaf/blob/master/README.md | NA | NA|
