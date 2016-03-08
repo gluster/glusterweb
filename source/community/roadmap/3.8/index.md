@@ -7,7 +7,7 @@ Converged HA for NFS-Ganesha and Samba | Kaleb Keithley, Jose Rivera | TBD | TBD
 Enhance Quota enable/disable in glusterd | Vijaikumar, Manikandan | TBD | TBD | TBD |
 Mandatory lock support for Multiprotocol environment | Anoop C S, Rajesh Joseph, Poornima G, Raghavendra Talur | <https://review.gluster.org/#/c/12014/> | <https://review.gluster.org/#/q/topic:bug-762184> | TBD |
 User and Group Quotas | Vijaikumar, Manikandan | TBD | TBD | TBD |
-Hyperconvergence - Sharding aware Geo-replication | Aravinda, Kotresh| TBD | TBD | TBD |
+Hyperconvergence - Sharding aware Geo-replication | Aravinda, Kotresh| TBD | http://review.gluster.org/#/c/12205/ http://review.gluster.org/#/c/12206/ http://review.gluster.org/#/c/12225/ http://review.gluster.org/#/c/12226/ http://review.gluster.org/#/c/12228/ http://review.gluster.org/#/c/13542/ | TBD |
 Tiering aware Geo-replication | Saravanakumar | http://review.gluster.org/13515/ | http://review.gluster.org/12417 http://review.gluster.org/12355 http://review.gluster.org/12326 http://review.gluster.org/12239  | TBD |
 Glusterfind and Bareos Integration | Milind Changire | TBD | TBD | TBD |
 Directory/Files filters for Geo-replication (Stretch Goal) | Kotresh, Aravinda | TBD | TBD |
