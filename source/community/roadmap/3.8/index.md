@@ -1136,7 +1136,7 @@ iSCSI access for Gluster                    | Raghavendra Bhat, Vijay Bellur    
 Directory/Files filters for Geo-replication | Kotresh, Aravinda                  | TBD          |
 Add + Remove brick with Volume Tiering      | Dan Lambright                      | TBD          |
 Volume Tiering                              | Dan Lambright                      | TBD          |
-
+User and Group Quotas                       | Vijaikumar M                       | TBD          |
 
 [glusterfs-3.8.0]: https://bugzilla.redhat.com/show_bug.cgi?id=glusterfs-3.8.0
 [glusterfs repository]: https://github.com/gluster/glusterfs
