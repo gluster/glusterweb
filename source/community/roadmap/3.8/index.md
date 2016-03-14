@@ -1123,6 +1123,39 @@ file.
 * **Advertisement**
   *(link to emails in gluster-devel archive with blog and video)*
 
+### DHT2
+***TODO***: add summary
+
+* **Status**:
+  POC is done(?), ready to test(?)
+
+* **Owners**:
+  Shyamsundar Ranganathan, Venky Shankar
+
+* **Feature page:**
+  http://review.gluster.org/#/c/13395/
+
+* **Tracker Bug and Patches**:
+  ...
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  ...
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
+
 
 # Moved out to the next minor or major release
 
