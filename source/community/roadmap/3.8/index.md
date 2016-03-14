@@ -394,40 +394,6 @@ look at other more serious solutions.
 
 ## Quota Enhancements
 
-### User and Group Quotas
-***TODO***: add summary
-
-* **Status**:
-  (8-March-2016) At risk, needs planning review.
-
-* **Owners**:
-  Vijaikumar, Manikandan
-
-* **Feature Page**:
-  ...
-
-* **Tracker Bug and Patches**:
-  ...
-
-* **Maintainer**
-  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
-
-* **DiSTAF Testcase**:
-  ...
-
-* **Release Notes**:
-  *(link to email in gluster-devel archive with release notes)*
-
-* **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
-
-* **Integration and Eco-system**
-  ...
-
-* **Advertisement**
-  *(link to emails in gluster-devel archive with blog and video)*
-
-
 ### Enhance Quota enable/disable in glusterd
 ***TODO***: add summary
 
@@ -1136,7 +1102,7 @@ iSCSI access for Gluster                    | Raghavendra Bhat, Vijay Bellur    
 Directory/Files filters for Geo-replication | Kotresh, Aravinda                  | TBD          |
 Add + Remove brick with Volume Tiering      | Dan Lambright                      | TBD          |
 Volume Tiering                              | Dan Lambright                      | TBD          |
-User and Group Quotas                       | Vijaikumar M                       | TBD          |
+User and Group Quotas                       | Vijaikumar M, Manikandan           | TBD          |
 
 [glusterfs-3.8.0]: https://bugzilla.redhat.com/show_bug.cgi?id=glusterfs-3.8.0
 [glusterfs repository]: https://github.com/gluster/glusterfs
