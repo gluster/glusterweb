@@ -281,6 +281,41 @@ both when Linux is used as a client and as a server.
 * **Advertisement**
   *(link to emails in gluster-devel archive with blog and video)*
 
+### Tiering enhancements
+  Performance enhancements for small files
+  Limit promotion to hot tier based on filesize
+  Improve responsiveness for promotion/demotion of files ordered list of files based on heat (migration limit based on no. files and MB)
+
+* **Status**:
+  (13-March-2016) *unknown*
+
+* **Owners**:
+  Dan Lambright
+  Joseph Fernandes
+
+* **Feature Page**:
+  ...
+
+* **Tracker Bug and Patches**:
+  ...
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  ...
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
 
 ### Samba and NFS-Ganesha support for tiered volumes
 Both Samba and NFS-Ganesha require improvements for supporting Tiered Volumes.
@@ -290,6 +325,7 @@ Both Samba and NFS-Ganesha require improvements for supporting Tiered Volumes.
 
 * **Owners**:
   Dan Lambright
+  Joseph Fernandes
 
 * **Feature Page**:
   ...
@@ -1026,12 +1062,14 @@ file.
 
 
 ### WORM, Retention and Compliance
-***TODO***: add summary
+  Adding WORM-Retention semantics to gluster. This will be experimental feature for 3.8 and will be improved gradually in 
+  later releases.
 
 * **Status**:
   (9-March-2016) Design ready, partial proof of concept code.
 
 * **Owners**:
+  Joseph Elwin Fernandes
   Karthik Subrahmanya
 
 * **Feature page:**
