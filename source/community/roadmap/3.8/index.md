@@ -643,41 +643,6 @@ look at other more serious solutions.
   *(link to emails in gluster-devel archive with blog and video)*
 
 
-### Periodic DiSTAF testing
-***TODO***: add summary
-
-* **Status**:
-  (10-March-2016) Work in progress, partially posted to the `centos-ci`
-  directory in the [patch-acceptance-tests] repository.
-
-* **Owners**:
-  MS V Bhat, Kaushal
-
-* **Feature page:**
-  ...
-
-* **Tracker Bug and Patches**:
-  ...
-
-* **Maintainer**
-  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
-
-* **DiSTAF Testcase**:
-  ...
-
-* **Release Notes**:
-  *(link to email in gluster-devel archive with release notes)*
-
-* **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
-
-* **Integration and Eco-system**
-  ...
-
-* **Advertisement**
-  *(link to emails in gluster-devel archive with blog and video)*
-
-
 ### Versioned Documentation
 ***TODO***: add summary
 
@@ -839,6 +804,43 @@ look at other more serious solutions.
 
 * **DiSTAF Testcase**:
   ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  ...
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
+
+
+### Periodic DiSTAF testing
+[DiSTAF] is a multi node test framework used for automating the test cases related to gluster.
+Any new feature for glusterfs should have correspnding tests written in distaf. These tests
+will be run periodically by a Jenkins job. Currently the job will be run inside CentOS CI infra.
+
+* **Status**:
+  (10-March-2016) Work in progress, partially posted to the `centos-ci`
+  directory in the [patch-acceptance-tests] repository.
+
+* **Owners**:
+  M S Vishwanath Bhat, Raghavendra Talur, Kaushal
+
+* **Feature page:**
+  ...
+
+* **Tracker Bug and Patches**:
+  N/A
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  N/A
 
 * **Release Notes**:
   *(link to email in gluster-devel archive with release notes)*
