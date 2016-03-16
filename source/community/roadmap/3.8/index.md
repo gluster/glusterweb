@@ -349,8 +349,8 @@ look at other more serious solutions.
 ***TODO***: add summary
 
 * **Status**:
-  (13-March-2016) Patches for Gluster merged, Linux kernel FUSE module merged
-  (linux-4.5), QEMU under review, NFS-Ganesha unposted POC.
+  (16-March-2016) Patches for Gluster merged, Linux kernel FUSE module merged
+  (linux-4.5), QEMU merged (2.7), Wireshark merged, NFS-Ganesha unposted POC.
 
 * **Owners**:
   Niels de Vos, Ravishankar
@@ -359,10 +359,13 @@ look at other more serious solutions.
   ...
 
 * **Tracker Bug and Patches**:
-  [SEEK_HOLE support
-  (optimization)](https://bugzilla.redhat.com/show_bug.cgi?id=1220173)
-  [Changes in Gerrit](http://review.gluster.org/#/q/topic:bug-1220173)
-  [FUSE module](http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/fs/fuse?id=0b5da8db145bfd44266ac964a2636a0cf8d7c286)
+  * [SEEK_HOLE support (optimization)](https://bugzilla.redhat.com/show_bug.cgi?id=1220173)
+  * [Changes in Gerrit](http://review.gluster.org/#/q/topic:bug-1220173)
+  * [FUSE module](http://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/commit/fs/fuse?id=0b5da8db145bfd44266ac964a2636a0cf8d7c286)
+  * [Wireshark dissector](https://code.wireshark.org/review/13780)
+  * QEMU block/gluster:
+    [mail](http://thread.gmane.org/gmane.comp.emulators.qemu.block/9425/focus=9491),
+    [commit](https://github.com/codyprime/qemu-kvm-jtc/commit/611709dc69186c716432708c16a77da0871a3176)
 
 * **Maintainer**
   Existing protocol and xlator maintainers.
