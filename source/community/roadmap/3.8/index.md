@@ -109,7 +109,7 @@ leases/delegations for the files.
 * **Feature Page**:
   **TODO**: move [old wiki
   page](http://www.gluster.org/community/documentation/index.php/Features/Upcall-infrastructure#delegations.2Flease-locks)
-  to [glusterfs-specs].
+  to [glusterfs-specs repository].
 
 * **Tracker Bug and Patches**:
   ...
@@ -171,7 +171,7 @@ storage platforms.
 ### Mandatory lock support for Multiprotocol environment
 POSIX.1 does not specify any scheme for mandatory locking. Whereas Linux kernel
 provide support for mandatory locks based on file mode bits which is explained
-at [https://www.kernel.org/doc/Documentation/filesystems/mandatory-locking.txt].
+at <https://www.kernel.org/doc/Documentation/filesystems/mandatory-locking.txt>.
 But the proposed feature does not adhere completely to the semantics described
 by linux kernel. Instead we enforce core mandatory lock semantics at its byte
 range granularity level as detailed below without the help of file mode bits.
@@ -186,7 +186,7 @@ range granularity level as detailed below without the help of file mode bits.
   https://review.gluster.org/#/c/12014/
 
 * **Tracker Bug and Patches**:
-  https://review.gluster.org/#/q/topic:bug-762184
+  <https://review.gluster.org/#/q/topic:bug-762184>
 
 * **Maintainer**
   *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
@@ -223,7 +223,7 @@ both when Linux is used as a client and as a server.
   Rajesh Joseph + Volunteers
 
 * **Feature Page**:
-  http://www.gluster.org/community/documentation/index.php/Features/RichACL
+  <http://www.gluster.org/community/documentation/index.php/Features/RichACL>
 
 * **Tracker Bug and Patches**:
   ...
@@ -517,8 +517,8 @@ look at other more serious solutions.
   http://review.gluster.org/13515/
 
 * **Tracker Bug and Patches**:
-  http://review.gluster.org/12417 http://review.gluster.org/12355
-  http://review.gluster.org/12326 http://review.gluster.org/12239
+  <http://review.gluster.org/12417> <http://review.gluster.org/12355>
+  <http://review.gluster.org/12326> <http://review.gluster.org/12239>
 
 * **Maintainer**
   *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
@@ -551,7 +551,7 @@ look at other more serious solutions.
   Anuradha, Krutika, Pranith, Ravi
 
 * **Feature page**:
-  http://review.gluster.org/#/c/12257
+  <http://review.gluster.org/#/c/12257>
 
 * **Tracker Bug and Patches**:
   ...
@@ -588,7 +588,7 @@ look at other more serious solutions.
   https://review.gluster.org/#/c/13399/
 
 * **Tracker Bug and Patches**:
-  http://review.gluster.org/#/q/topic:bug-1264849+OR+topic:bug-1264847+OR+topic:bug-1264853+OR+topic:bug-1264857
+  <http://review.gluster.org/#/q/topic:bug-1264849+OR+topic:bug-1264847+OR+topic:bug-1264853+OR+topic:bug-1264857>
 
 * **Maintainer**
   *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
@@ -619,7 +619,7 @@ look at other more serious solutions.
   Aravinda VK, Samikshan
 
 * **Feature page:**
-  http://review.gluster.org/13115
+  <http://review.gluster.org/13115>
 
 * **Tracker Bug and Patches**:
   ...
@@ -691,7 +691,7 @@ look at other more serious solutions.
   Aravinda VK
 
 * **Feature page:**
-  http://review.gluster.org/13214
+  <http://review.gluster.org/13214>
 
 * **Tracker Bug and Patches**:
   ...
@@ -743,7 +743,7 @@ look at other more serious solutions.
 * **User Documentation**
   *(link to the pull request for the [Admin Guide] or other official docs)*
 
-* **Integration and Eco-system**
+* **Integration and Eco-system**h
   ...
 
 * **Advertisement**
@@ -760,7 +760,7 @@ look at other more serious solutions.
   Aravinda VK
 
 * **Feature page:**
-  https://github.com/gluster/glustertool/blob/master/README.md
+  <https://github.com/gluster/glustertool/blob/master/README.md>
 
 * **Tracker Bug and Patches**:
   ...
@@ -785,7 +785,7 @@ look at other more serious solutions.
 
 
 ### Heketi
-***TODO***: add summary - https://github.com/heketi/heketi
+***TODO***: add summary - <https://github.com/heketi/heketi>
 
 * **Status**:
   (11-March-2016) Under investigation.
@@ -974,7 +974,7 @@ file.
   Niels de Vos, Csaba Henk
 
 * **Feature page:**
-  http://review.gluster.org/12118
+  <http://review.gluster.org/12118>
 
 * **Tracker Bug and Patches**:
   ...
@@ -1042,7 +1042,7 @@ Add WORM-Retention semantics for files on a Gluster Volume.
   Joseph Elwin Fernandes, Karthik Subrahmanya
 
 * **Feature page:**
-  http://review.gluster.org/13538
+  <http://review.gluster.org/13538>
 
 * **Tracker Bug and Patches**:
   ...
@@ -1140,7 +1140,7 @@ Add WORM-Retention semantics for files on a Gluster Volume.
   Shyamsundar Ranganathan, Venky Shankar
 
 * **Feature page:**
-  http://review.gluster.org/#/c/13395/
+  <http://review.gluster.org/#/c/13395/>
 
 * **Tracker Bug and Patches**:
   ...
@@ -1171,14 +1171,14 @@ Add WORM-Retention semantics for files on a Gluster Volume.
 Feature                                     | Owner(s)                           | Feature Page |
 --------------------------------------------|------------------------------------|--------------|
 Inotify                                     | Soumya Koduri                      | TBD          |
-pNFS Layout Recall                          | Jiffin Tony Thottan, Soumya Koduri | http://review.gluster.org/#/c/12367/3/wip/pNFS-Layout-Recall.md |
+pNFS Layout Recall                          | Jiffin Tony Thottan, Soumya Koduri | <http://review.gluster.org/#/c/12367/3/wip/pNFS-Layout-Recall.md> |
 iSCSI access for Gluster                    | Raghavendra Bhat, Vijay Bellur     | TBD          |
 Directory/Files filters for Geo-replication | Kotresh, Aravinda                  | TBD          |
 Add + Remove brick with Volume Tiering      | Dan Lambright                      | TBD          |
 Volume Tiering                              | Dan Lambright                      | TBD          |
 User and Group Quotas                       | Vijaikumar M, Manikandan           | TBD          |
 
-[glusterfs-3.8.0]: https://bugzilla.redhat.com/show_bug.cgi?id=glusterfs-3.8.0
+[glusterfs-3.8.0]: https://bugzilla.redhat.com/showdependencytree.cgi?maxdepth=1&id=glusterfs-3.8.0
 [glusterfs repository]: https://github.com/gluster/glusterfs
 [glusterfs-specs repository]: https://github.com/gluster/glusterfs-specs
 [patch-acceptance-tests]: https://github.com/gluster/glusterfs-patch-acceptance-tests/
