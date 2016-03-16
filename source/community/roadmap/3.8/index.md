@@ -85,54 +85,6 @@ counts for features that are proposed as **experimental**.
 
 ## Protocol improvements for integration with Samba, NFS and others
 
-### Leases Support for Gluster
-A file lease provides a mechanism whereby the process holding the lease (the
-"lease holder") is notified when a process (the "lease breaker") tries to
-perform a fop with conflicting access on the same file.
-
-NFS Delegation (similar to lease_locks) is a technique by which the server
-delegates the management of a file to a client which guarantees that no client
-can open the file in a conflicting mode.
-
-Advantages of these locks is that it greatly reduces the interactions between
-the server and the client for delegated files.
-
-This feature now also provides the support to grant or process these
-leases/delegations for the files.
-
-* **Status**:
-  (11-March-2016) Patches under review.
-
-* **Owners**:
-  Poornima G, Soumya Koduri, Rajesh Joseph, Raghavendra Talur
-
-* **Feature Page**:
-  **TODO**: move [old wiki
-  page](http://www.gluster.org/community/documentation/index.php/Features/Upcall-infrastructure#delegations.2Flease-locks)
-  to [glusterfs-specs repository].
-
-* **Tracker Bug and Patches**:
-  ...
-
-* **Maintainer**
-  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
-
-* **DiSTAF Testcase**:
-  ...
-
-* **Release Notes**:
-  *(link to email in gluster-devel archive with release notes)*
-
-* **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
-
-* **Integration and Eco-system**
-  **TODO**: Samba/NFS-Ganesha patches/proposal
-
-* **Advertisement**
-  *(link to emails in gluster-devel archive with blog and video)*
-
-
 ### Converged HA for NFS-Ganesha and Samba
 Integration with [Storhaug], a Pacemaker-based HA solution for clustered
 storage platforms.
@@ -1159,6 +1111,55 @@ Add WORM-Retention semantics for files on a Gluster Volume.
 
 * **Integration and Eco-system**
   ...
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
+
+
+### Leases Support for Gluster
+A file lease provides a mechanism whereby the process holding the lease (the
+"lease holder") is notified when a process (the "lease breaker") tries to
+perform a fop with conflicting access on the same file.
+
+NFS Delegation (similar to lease_locks) is a technique by which the server
+delegates the management of a file to a client which guarantees that no client
+can open the file in a conflicting mode.
+
+Advantages of these locks is that it greatly reduces the interactions between
+the server and the client for delegated files.
+
+This feature now also provides the support to grant or process these
+leases/delegations for the files.
+
+* **Status**:
+  (16-March-2016) Some patches under review, full design not settled yet. There
+  most likely will be a dependency on the new compound FOPs.
+
+* **Owners**:
+  Poornima G, Soumya Koduri, Rajesh Joseph, Raghavendra Talur
+
+* **Feature Page**:
+  **TODO**: move [old wiki
+  page](http://www.gluster.org/community/documentation/index.php/Features/Upcall-infrastructure#delegations.2Flease-locks)
+  to [glusterfs-specs repository].
+
+* **Tracker Bug and Patches**:
+  ...
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  **TODO**: Samba/NFS-Ganesha patches/proposal
 
 * **Advertisement**
   *(link to emails in gluster-devel archive with blog and video)*
