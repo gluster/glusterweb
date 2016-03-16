@@ -1070,13 +1070,13 @@ Add WORM-Retention semantics for files on a Gluster Volume.
 ***TODO***: add summary
 
 * **Status**:
-  (10-March-2016) Design (mostly?) ready.
+  (10-March-2016) High Level Design ready.
 
 * **Owners**:
-  Ravishankar
+  Ravishankar N
 
 * **Feature page:**
-  ...
+  https://github.com/gluster/glusterfs-specs/blob/master/accepted/throttling.md
 
 * **Tracker Bug and Patches**:
   ...
