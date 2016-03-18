@@ -953,40 +953,6 @@ file.
   *(link to emails in gluster-devel archive with blog and video)*
 
 
-### Sub-directory export for native protocol
-***TODO***: add summary
-
-* **Status**:
-  (10-March-2016) Proof of concept patches under review.
-
-* **Owners**:
-  Pranith Karampuri
-
-* **Feature page:**
-  ...
-
-* **Tracker Bug and Patches**:
-  ...
-
-* **Maintainer**
-  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
-
-* **DiSTAF Testcase**:
-  ...
-
-* **Release Notes**:
-  *(link to email in gluster-devel archive with release notes)*
-
-* **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
-
-* **Integration and Eco-system**
-  ...
-
-* **Advertisement**
-  *(link to emails in gluster-devel archive with blog and video)*
-
-
 ### WORM, Retention and Compliance
 Add WORM-Retention semantics for files on a Gluster Volume.
 
@@ -1166,6 +1132,41 @@ leases/delegations for the files.
 
 * **Advertisement**
   *(link to emails in gluster-devel archive with blog and video)*
+
+### Native sub-directory mounts
+Native support for sub-directory mounts for GlusterFS volumes, just like how
+NFS does it.
+
+* **Status**:
+  Design being finalized. Existing patches present.
+
+* **Owners**:
+  Kaushal M, Pranith K
+
+* **Feature page:**
+  <https://github.com/gluster/glusterfs-specs/blob/master/under_review/subdirectory-mounts.md>
+  - _To be moved to accepted after more cleaning_
+
+* **Tracker Bug and Patches**:
+  [Bug 892808](https://bugzilla.redhat.com/show_bug.cgi?id=892808)
+
+* **Maintainer**
+  TBD
+
+* **DiSTAF Testcase**:
+  TODO
+
+* **Release Notes**:
+  TODO
+
+* **User Documentation**
+  TODO
+
+* **Integration and Eco-system**
+  ...
+
+* **Advertisement**
+  TODO
 
 
 # Moved out to the next minor or major release
