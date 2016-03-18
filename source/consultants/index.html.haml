@@ -11,56 +11,66 @@ navigation: consultants
     help you design solutions, improve performance or provide additional
     support for Gluster.
 
-.row
-  .col-md-4
-    =image_tag "logo_biodec.png", class: "img-responsive center-block"
-    %h2.text-center BioDec
-    %p.text-center=link_to "http://www.biodec.com", "http://www.biodec.com"
-    %p BioDec helps in designing, building, and mantaining IT infrastructures to support complex systems and organizations. We design and build them with free software and open standards: GNU/Linux(we use Debian, Ubuntu, CentOS) as the operating system, many different software for the server virtualization (Ganeti, KVM, OpenNebula), specialized tools to manage large data (GlusterFS, Riak), and Python. We maintain them using automation (SaltStack, Cfengine3, Puppet), pervasive monitoring (Nagios, Graphite, Collectd, Statsd, Logstash), and Agile IT (a.k.a.devops) approaches.
-    %dl
-      %dt Contact:
-      %dd
-        %i.fa.fa-fw.fa-user
-        Ivan Rossi
-      %dd
-        %i.fa.fa-fw.fa-envelope
-        =mail_to "info@biodec.com", "info@biodec.com"
-      %dd
-        %i.fa.fa-fw.fa-phone
-        =link_to "+39 051 054 8263", "tel:+39-051-054-8263"
+.container
+  .row
+    .col-md-4
+      =link_to "http://www.biodec.com" do
+        =image_tag "logo_biodec.png", class: "img-responsive center-block"
+    .col-md-8
+      =link_to "http://www.biodec.com" do
+        %h1 BioDec
+      %p BioDec helps in designing, building, and mantaining IT infrastructures to support complex systems and organizations. We design and build them with free software and open standards: GNU/Linux(we use Debian, Ubuntu, CentOS) as the operating system, many different software for the server virtualization (Ganeti, KVM, OpenNebula), specialized tools to manage large data (GlusterFS, Riak), and Python. We maintain them using automation (SaltStack, Cfengine3, Puppet), pervasive monitoring (Nagios, Graphite, Collectd, Statsd, Logstash), and Agile IT (a.k.a.devops) approaches.
+      %ul.list-inline
+        %li
+          %strong Contact:
+        %li
+          %i.fa.fa-fw.fa-user
+          Ivan Rossi
+        %li
+          %i.fa.fa-fw.fa-envelope
+          =mail_to "info@biodec.com", "info@biodec.com"
+        %li
+          %i.fa.fa-fw.fa-phone
+          =link_to "+39 051 054 8263", "tel:+39-051-054-8263"
 
-  .col-md-4
-    =image_tag "logo_datalab.png", class: "img-responsive center-block"
-    %h2.text-center DataLab S.L.
-    %p.text-center=link_to "http://www.dlnas.com//", "http://www.dlnas.com/"
-    %p DataLab is a small IT infrastructure engineering company, based in Barcelona, Spain, since 1980 offering design, implementation, support and services mainly on Health Care sector: Hospitals, Clinical Analysis Labs, Medical Imaging and Genomics. We are specialized in Open Source Software Defined Storage support and services for large size (hundreds of TB's to PB's), continuously growing, and long lasting (human life span?) unstructured data archival for reference, research and education. We contribute to glusterfs community developing the Disperse Translator to provide Erasure Code based volumes. 
-    %dl
-      %dt Contact:
-      %dd
-        %i.fa.fa-fw.fa-user
-        Ramon Selga 
-      %dd
-        %i.fa.fa-fw.fa-envelope
-        =mail_to "info@datalab.es", "info@datalab.es"
-      %dd
-        %i.fa.fa-fw.fa-phone
-        =link_to "+34 93 476 69 10", "tel:+34-93-476-69-10"
+  .row
+    .col-md-4
+      =link_to "http://www.dlnas.com/" do
+        =image_tag "logo_datalab.png", class: "img-responsive center-block"
+    .col-md-8
+      =link_to "http://www.dlnas.com/" do
+        %h2 DataLab S.L.
+      %p DataLab is a small IT infrastructure engineering company, based in Barcelona, Spain, since 1980 offering design, implementation, support and services mainly on Health Care sector: Hospitals, Clinical Analysis Labs, Medical Imaging and Genomics. We are specialized in Open Source Software Defined Storage support and services for large size (hundreds of TB's to PB's), continuously growing, and long lasting (human life span?) unstructured data archival for reference, research and education. We contribute to glusterfs community developing the Disperse Translator to provide Erasure Code based volumes.
+      %ul.list-inline
+        %li
+          %strong Contact:
+        %li
+          %i.fa.fa-fw.fa-user
+          Ramon Selga
+        %li
+          %i.fa.fa-fw.fa-envelope
+          =mail_to "info@datalab.es", "info@datalab.es"
+        %li
+          %i.fa.fa-fw.fa-phone
+          =link_to "+34 93 476 69 10", "tel:+34-93-476-69-10"
 
 
-  .col-md-4
-    =image_tag "logo_netbulae.png", class: "img-responsive center-block"
-    %h2.text-center Netbulae B.V.
-    %p.text-center=link_to "http://www.netbulae.eu/", "http://www.netbulae.eu/"
-    %p Netbulae designs and implements virtual datacenters and cloud infrastructure. In today’s world, IT capabilities and possibilities are endless. So much so that it can be daunting to see the forest through the trees. With a no-nonsense approach, Netbulae advises about the virtualization solution that fits your company. 
-    %dl
-      %dt Contact:
-      %dd 
-        %i.fa.fa-fw.fa-user
-        Jorick Astrego
-      %dd
-        %i.fa.fa-fw.fa-envelope
-        =mail_to "info@netbulae.eu", "info@netbulae.eu"
-      %dd
-        %i.fa.fa-fw.fa-phone
-        =link_to "+31 53 20 30 270", "tel:+31-53-20-30-270"
-
+  .row
+    .col-md-4
+      =link_to "http://www.netbulae.eu/" do
+        =image_tag "logo_netbulae.png", class: "img-responsive center-block"
+    .col-md-8
+      =link_to "http://www.netbulae.eu/" do
+        %h2 Netbulae B.V.
+      %p Netbulae designs and implements virtual datacenters and cloud infrastructure. In today’s world, IT capabilities and possibilities are endless. So much so that it can be daunting to see the forest through the trees. With a no-nonsense approach, Netbulae advises about the virtualization solution that fits your company.
+      %ul.list-inline
+        %li Contact:
+        %li
+          %i.fa.fa-fw.fa-user
+          Jorick Astrego
+        %li
+          %i.fa.fa-fw.fa-envelope
+          =mail_to "info@netbulae.eu", "info@netbulae.eu"
+        %li
+          %i.fa.fa-fw.fa-phone
+          =link_to "+31 53 20 30 270", "tel:+31-53-20-30-270"
