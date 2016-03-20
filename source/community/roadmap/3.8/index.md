@@ -316,16 +316,16 @@ becomes time to announce the deprecation of Gluster/NFS so that users start to
 look at other more serious solutions.
 
 * **Status**:
-  (13-March-2016) Planned.
+  (20-March-2016) Planned.
 
 * **Owners**:
   Kaleb Keithley, Niels de Vos
 
 * **Feature page:**
-  ...
+  [under review in Gerrit](http://review.gluster.org/13740)
 
 * **Tracker Bug and Patches**:
-  ...
+  [patch](http://review.gluster.org/13738)
 
 * **Maintainer**
   Existing maintainer for Gluster/NFS.
