@@ -1069,16 +1069,20 @@ Add WORM-Retention semantics for files on a Gluster Volume.
 
 
 ### SELinux on Gluster Volumes
-***TODO***: add summary
+SELinux should be completely supported on a Gluster Volume. Clients that access
+contents on a Gluster Volume should be able to get and set the SELinux context.
+This needs to be done in such a way, that the brick processes can keep running
+with their restricted context.
 
 * **Owners**:
   Niels de Vos, Manikandan
 
 * **Feature page:**
-  ...
+  [Gerrit review](http://review.gluster.org/13789)
 
 * **Tracker Bug and Patches**:
-  ...
+  [SELinux translator to support setting SELinux contexts on files in a glusterfs
+  volume](https://bugzilla.redhat.com/1318100)
 
 * **Maintainer**
   *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
