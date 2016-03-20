@@ -391,6 +391,40 @@ storage and network overhead when copies are made.
   *(link to emails in gluster-devel archive with blog and video)*
 
 
+### Compound operations
+***TODO***: add summary (Compound operations similar to NFSv4)
+
+* **Status**:
+  (20-March-2016) Feature page posted, design under discussion.
+
+* **Owners**:
+  Anuradha Talur
+
+* **Feature Page**:
+  <http://review.gluster.org/13761>
+
+* **Tracker Bug and Patches**:
+  ...
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  ...
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
+
+
 ## Quota Enhancements
 
 ### Enhance Quota enable/disable in glusterd
