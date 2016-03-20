@@ -440,10 +440,18 @@ storage and network overhead when copies are made.
   Aravinda, Kotresh
 
 * **Feature Page**:
-  ...
+  http://review.gluster.org/#/c/13788/
 
 * **Tracker Bug and Patches**:
-  ...
+  https://bugzilla.redhat.com/show_bug.cgi?id=1275972
+  https://bugzilla.redhat.com/show_bug.cgi?id=1284453
+  
+  1. http://review.gluster.org/#/c/12438/
+  2. http://review.gluster.org/#/c/12732/
+  3. http://review.gluster.org/#/c/12729/
+  4. http://review.gluster.org/#/c/12721/
+  5. http://review.gluster.org/#/c/12731/
+  6. http://review.gluster.org/#/c/13643/
 
 * **Maintainer**
   *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
