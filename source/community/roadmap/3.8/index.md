@@ -203,17 +203,18 @@ both when Linux is used as a client and as a server.
 ***TODO***: add summary
 
 * **Status**:
-  (11-March-2016) Raghavendra Talur has proof on concept patches, need cleanup
+  (20-March-2016) Raghavendra Talur has proof on concept patches, need cleanup
   and posting.
 
 * **Owners**:
   Raghavendra Talur + Poornima G, Soumya Koduri, Rajesh Joseph, Anoop C S
 
 * **Feature Page**:
-  ...
+  * [Feature page in Gerrit](http://review.gluster.org/13780)
+  * [Design](http://review.gluster.org/13779)
 
 * **Tracker Bug and Patches**:
-  ...
+  [Gluster should provide "share mode"/"share reservation" support](https://bugzilla.redhat.com/1263231)
 
 * **Maintainer**
   *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
