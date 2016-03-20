@@ -683,7 +683,7 @@ storage and network overhead when copies are made.
   *(link to emails in gluster-devel archive with blog and video)*
 
 
-### Glusterfind and Bareos Integration | Milind Changire | TBD | TBD | TBD |
+### Glusterfind and Bareos Integration
 ***TODO***: add summary
 
 * **Status**:
