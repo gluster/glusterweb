@@ -346,17 +346,21 @@ look at other more serious solutions.
 
 
 ### SEEK
-***TODO***: add summary
+All modern filesystems support `SEEK_DATA` and `SEEK_HOLE` with the `lseek()`
+systemcall. This functionality makes it possible to detect holes in files, so
+that copies and backups of sparse files do not get the 'holes' allocated with
+zero-bytes. Supporting the detection of holes in files reduces the needed
+storage and network overhead when copies are made.
 
 * **Status**:
-  (16-March-2016) Patches for Gluster merged, Linux kernel FUSE module merged
+  (20-March-2016) Patches for Gluster merged, Linux kernel FUSE module merged
   (linux-4.5), QEMU merged (2.7), Wireshark merged, NFS-Ganesha unposted POC.
 
 * **Owners**:
-  Niels de Vos, Ravishankar
+  Niels de Vos, Ravishankar N
 
 * **Feature page:**
-  ...
+  [Gerrit review](http://review.gluster.org/13786)
 
 * **Tracker Bug and Patches**:
   * [SEEK_HOLE support (optimization)](https://bugzilla.redhat.com/show_bug.cgi?id=1220173)
@@ -380,7 +384,8 @@ look at other more serious solutions.
   *(link to the pull request for the [Admin Guide] or other official docs)*
 
 * **Integration and Eco-system**
-  ...
+  * QEMU 2.7 with the Gluster block-driver uses `glfs_lseek()` for sparse files
+  * Wireshark can dissect the calls and replies for the `SEEK` procedure
 
 * **Advertisement**
   *(link to emails in gluster-devel archive with blog and video)*
