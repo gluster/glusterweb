@@ -440,10 +440,18 @@ storage and network overhead when copies are made.
   Aravinda, Kotresh
 
 * **Feature Page**:
-  ...
+  [Add design spec for geo-rep support for sharded
+  volumes](http://review.gluster.org/#/c/13788/)
 
 * **Tracker Bug and Patches**:
-  ...
+  [Support geo-replication to work with sharding](https://bugzilla.redhat.com/1265148)
+  
+  1. <http://review.gluster.org/#/c/12438/>
+  2. <http://review.gluster.org/#/c/12732/>
+  3. <http://review.gluster.org/#/c/12729/>
+  4. <http://review.gluster.org/#/c/12721/>
+  5. <http://review.gluster.org/#/c/12731/>
+  6. <http://review.gluster.org/#/c/13643/>
 
 * **Maintainer**
   *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
