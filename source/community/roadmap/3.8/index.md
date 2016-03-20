@@ -135,7 +135,7 @@ range granularity level as detailed below without the help of file mode bits.
   Anoop C S, Rajesh Joseph, Poornima G, Raghavendra Talur
 
 * **Feature Page**:
-  https://review.gluster.org/#/c/12014/
+  <https://review.gluster.org/#/c/12014/>
 
 * **Tracker Bug and Patches**:
   <https://review.gluster.org/#/q/topic:bug-762184>
