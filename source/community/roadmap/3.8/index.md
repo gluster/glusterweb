@@ -158,82 +158,6 @@ range granularity level as detailed below without the help of file mode bits.
 * **Advertisement**
   *(link to emails in gluster-devel archive with blog and video)*
 
-
-### RichACL support for GlusterFS
-[Richacls] are an implementation of NFSv4 ACLs which has been extended by file
-masks to better fit the standard POSIX file permission model. The main goal is
-to provide a consistent file permission model locally as well as over various
-remote file system protocols like NFSv4 and CIFS; this is expected to
-significantly improve interoperability in mixed operating system environments,
-both when Linux is used as a client and as a server.
-
-* **Status**:
-  (8-March-2016) Userspace `richacl` package is in Fedora, Rajesh has POC
-  xlator, needs heavy cleanup and further development.
-
-* **Owners**:
-  Rajesh Joseph + Volunteers
-
-* **Feature Page**:
-  <http://www.gluster.org/community/documentation/index.php/Features/RichACL>
-
-* **Tracker Bug and Patches**:
-  ...
-
-* **Maintainer**
-  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
-
-* **DiSTAF Testcase**:
-  ...
-
-* **Release Notes**:
-  *(link to email in gluster-devel archive with release notes)*
-
-* **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
-
-* **Integration and Eco-system**
-  **TODO**: Samba/NFS-Ganesha patches/proposal
-
-* **Advertisement**
-  *(link to emails in gluster-devel archive with blog and video)*
-
-
-### Share modes / Share reservations
-***TODO***: add summary
-
-* **Status**:
-  (20-March-2016) Raghavendra Talur has proof on concept patches, need cleanup
-  and posting.
-
-* **Owners**:
-  Raghavendra Talur + Poornima G, Soumya Koduri, Rajesh Joseph, Anoop C S
-
-* **Feature Page**:
-  * [Feature page in Gerrit](http://review.gluster.org/13780)
-  * [Design](http://review.gluster.org/13779)
-
-* **Tracker Bug and Patches**:
-  [Gluster should provide "share mode"/"share reservation" support](https://bugzilla.redhat.com/1263231)
-
-* **Maintainer**
-  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
-
-* **DiSTAF Testcase**:
-  ...
-
-* **Release Notes**:
-  *(link to email in gluster-devel archive with release notes)*
-
-* **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
-
-* **Integration and Eco-system**
-  **TODO**: Samba/NFS-Ganesha patches/proposal
-
-* **Advertisement**
-  *(link to emails in gluster-devel archive with blog and video)*
-
 ### Tiering Performance Enhancements
 **TODO**: this should probably be split in multiple features? (2) and (3) are
 real features that should be called out to users, (1) is close to standard
@@ -1219,6 +1143,81 @@ NFS does it.
 
 * **Advertisement**
   TODO
+
+### RichACL support for GlusterFS
+[Richacls] are an implementation of NFSv4 ACLs which has been extended by file
+masks to better fit the standard POSIX file permission model. The main goal is
+to provide a consistent file permission model locally as well as over various
+remote file system protocols like NFSv4 and CIFS; this is expected to
+significantly improve interoperability in mixed operating system environments,
+both when Linux is used as a client and as a server.
+
+* **Status**:
+  (8-March-2016) Userspace `richacl` package is in Fedora, Rajesh has POC
+  xlator, needs heavy cleanup and further development.
+
+* **Owners**:
+  Rajesh Joseph + Volunteers
+
+* **Feature Page**:
+  * [Feature page in Gerrit](http://review.gluster.org/13791)
+
+* **Tracker Bug and Patches**:
+  ...
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  **TODO**: Samba/NFS-Ganesha patches/proposal
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
+
+
+### Share modes / Share reservations
+***TODO***: add summary
+
+* **Status**:
+  (20-March-2016) Raghavendra Talur has proof on concept patches, need cleanup
+  and posting.
+
+* **Owners**:
+  Raghavendra Talur + Poornima G, Soumya Koduri, Rajesh Joseph, Anoop C S
+
+* **Feature Page**:
+  * [Feature page in Gerrit](http://review.gluster.org/13780)
+  * [Design](http://review.gluster.org/13779)
+
+* **Tracker Bug and Patches**:
+  [Gluster should provide "share mode"/"share reservation" support](https://bugzilla.redhat.com/1263231)
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  **TODO**: Samba/NFS-Ganesha patches/proposal
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
 
 
 # Moved out to the next minor or major release
