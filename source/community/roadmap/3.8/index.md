@@ -85,41 +85,6 @@ counts for features that are proposed as **experimental**.
 
 ## Protocol improvements for integration with Samba, NFS and others
 
-### Converged HA for NFS-Ganesha and Samba
-Integration with [Storhaug], a Pacemaker-based HA solution for clustered
-storage platforms.
-
-* **Status**:
-  (13-March-2016) New upstream project, needs integration, packaging and testing.
-
-* **Owners**:
-  Kaleb Keithley, Jose Rivera
-
-* **Feature Page**:
-  ...
-
-* **Tracker Bug and Patches**:
-  ...
-
-* **Maintainer**
-  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
-
-* **DiSTAF Testcase**:
-  ...
-
-* **Release Notes**:
-  *(link to email in gluster-devel archive with release notes)*
-
-* **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
-
-* **Integration and Eco-system**
-  **TODO**: Samba/NFS-Ganesha patches/proposal
-
-* **Advertisement**
-  *(link to emails in gluster-devel archive with blog and video)*
-
-
 ### Mandatory lock support for Multiprotocol environment
 POSIX.1 does not specify any scheme for mandatory locking. Whereas Linux kernel
 provide support for mandatory locks based on file mode bits which is explained
@@ -154,79 +119,6 @@ range granularity level as detailed below without the help of file mode bits.
 
 * **Integration and Eco-system**
   **TODO**: Samba/NFS-Ganesha patches/proposal
-
-* **Advertisement**
-  *(link to emails in gluster-devel archive with blog and video)*
-
-### Tiering Performance Enhancements
-**TODO**: this should probably be split in multiple features? (2) and (3) are
-real features that should be called out to users, (1) is close to standard
-maintenance of an existing functionality (unless it needs re-design?).
-
-1. Performance enhancements for small files.
-2. Limit promotion to hot tier based on filesize.
-3. Improve responsiveness for promotion/demotion of files ordered list of files
-   based on heat (migration limit based on no. files and MB).
-
-* **Status**:
-  (13-March-2016) *unknown*
-
-* **Owners**:
-  Dan Lambright, Joseph Fernandes
-
-* **Feature Page**:
-  ...
-
-* **Tracker Bug and Patches**:
-  ...
-
-* **Maintainer**
-  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
-
-* **DiSTAF Testcase**:
-  ...
-
-* **Release Notes**:
-  *(link to email in gluster-devel archive with release notes)*
-
-* **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
-
-* **Integration and Eco-system**
-  ...
-
-* **Advertisement**
-  *(link to emails in gluster-devel archive with blog and video)*
-
-### Samba and NFS-Ganesha support for tiered volumes
-Both Samba and NFS-Ganesha require improvements for supporting Tiered Volumes.
-
-* **Status**:
-  (13-March-2016) *unknown*
-
-* **Owners**:
-  Dan Lambright, Joseph Fernandes
-
-* **Feature Page**:
-  ...
-
-* **Tracker Bug and Patches**:
-  ...
-
-* **Maintainer**
-  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
-
-* **DiSTAF Testcase**:
-  ...
-
-* **Release Notes**:
-  *(link to email in gluster-devel archive with release notes)*
-
-* **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
-
-* **Integration and Eco-system**
-  ...
 
 * **Advertisement**
   *(link to emails in gluster-devel archive with blog and video)*
@@ -327,42 +219,6 @@ storage and network overhead when copies are made.
 
 * **Feature Page**:
   <http://review.gluster.org/13761>
-
-* **Tracker Bug and Patches**:
-  ...
-
-* **Maintainer**
-  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
-
-* **DiSTAF Testcase**:
-  ...
-
-* **Release Notes**:
-  *(link to email in gluster-devel archive with release notes)*
-
-* **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
-
-* **Integration and Eco-system**
-  ...
-
-* **Advertisement**
-  *(link to emails in gluster-devel archive with blog and video)*
-
-
-## Quota Enhancements
-
-### Enhance Quota enable/disable in glusterd
-***TODO***: add summary
-
-* **Status**:
-  (8-March-2016) Patches under review.
-
-* **Owners**:
-  Vijaikumar, Manikandan
-
-* **Feature Page**:
-  ...
 
 * **Tracker Bug and Patches**:
   ...
@@ -1218,6 +1074,151 @@ both when Linux is used as a client and as a server.
 
 * **Advertisement**
   *(link to emails in gluster-devel archive with blog and video)*
+
+# At Risk
+
+### Converged HA for NFS-Ganesha and Samba
+Integration with [Storhaug], a Pacemaker-based HA solution for clustered
+storage platforms.
+
+* **Status**:
+  (13-March-2016) New upstream project, needs integration, packaging and testing.
+
+* **Owners**:
+  Kaleb Keithley, Jose Rivera
+
+* **Feature Page**:
+  ...
+
+* **Tracker Bug and Patches**:
+  ...
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  **TODO**: Samba/NFS-Ganesha patches/proposal
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
+
+### Tiering Performance Enhancements
+**TODO**: this should probably be split in multiple features? (2) and (3) are
+real features that should be called out to users, (1) is close to standard
+maintenance of an existing functionality (unless it needs re-design?).
+
+1. Performance enhancements for small files.
+2. Limit promotion to hot tier based on filesize.
+3. Improve responsiveness for promotion/demotion of files ordered list of files
+   based on heat (migration limit based on no. files and MB).
+
+* **Status**:
+  (13-March-2016) *unknown*
+
+* **Owners**:
+  Dan Lambright, Joseph Fernandes
+
+* **Feature Page**:
+  ...
+
+* **Tracker Bug and Patches**:
+  ...
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  ...
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
+
+### Samba and NFS-Ganesha support for tiered volumes
+Both Samba and NFS-Ganesha require improvements for supporting Tiered Volumes.
+
+* **Status**:
+  (13-March-2016) *unknown*
+
+* **Owners**:
+  Dan Lambright, Joseph Fernandes
+
+* **Feature Page**:
+  ...
+
+* **Tracker Bug and Patches**:
+  ...
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  ...
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
+
+## Quota Enhancements
+
+### Enhance Quota enable/disable in glusterd
+***TODO***: add summary
+
+* **Status**:
+  (8-March-2016) Patches under review.
+
+* **Owners**:
+  Vijaikumar, Manikandan
+
+* **Feature Page**:
+  ...
+
+* **Tracker Bug and Patches**:
+  ...
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  ...
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
+
 
 
 # Moved out to the next minor or major release
