@@ -218,7 +218,9 @@ storage and network overhead when copies are made.
   Anuradha Talur
 
 * **Feature Page**:
-  <http://review.gluster.org/13761>
+  ***TODO***: merge the two feature pages into one
+  * [Composite Operations](https://github.com/gluster/glusterfs-specs/blob/master/under_review/composite-operations.md)
+  * [Compound FOPs](https://github.com/gluster/glusterfs-specs/blob/master/under_review/compound-fops.md)
 
 * **Tracker Bug and Patches**:
   ...
