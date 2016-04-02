@@ -1165,6 +1165,7 @@ Both Samba and NFS-Ganesha require improvements for supporting Tiered Volumes.
 [Bug 1322695] SAMBA+TIER : Wrong message display.On detach tier success the message reflects Tier command failed.
 [Bug 1322518] SAMBA+TIER : File when created from one windows client over the same volume mount is not accessible from other windows client over same volume mount
 [Bug 1322247] SAMBA+TIER : File size is not getting updated when created on windows samba share mount
+[Bug 1323119] SAMBA+TIER : Rafi has RCAed and there is an upstream patch 
 
 * **Owners**:
   Dan Lambright, Joseph Fernandes
