@@ -1192,16 +1192,16 @@ Both Samba and NFS-Ganesha require improvements for supporting Tiered Volumes.
 ***TODO***: add summary
 
 * **Status**:
-  (8-March-2016) Patches under review.
+  (4-April-2016) Patches under review.
 
 * **Owners**:
   Vijaikumar, Manikandan
 
 * **Feature Page**:
-  ...
+  
 
 * **Tracker Bug and Patches**:
-  ...
+  [Enhance Quota enable/disable process](http://review.gluster.org/#/q/status:open+project:glusterfs+branch:master+topic:bug-1290766)
 
 * **Maintainer**
   *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
