@@ -1118,13 +1118,16 @@ storage platforms.
 real features that should be called out to users, (1) is close to standard
 maintenance of an existing functionality (unless it needs re-design?).
 
-1. Performance enhancements for small files.
+1. Performance enhancements for small files with EC as cold tier.
 2. Limit promotion to hot tier based on filesize.
 3. Improve responsiveness for promotion/demotion of files ordered list of files
    based on heat (migration limit based on no. files and MB).
 
 * **Status**:
-  (13-March-2016) *unknown*
+  (2-April-2016) 
+Item 1: tracked by bz 1292391. Good improvement with patch 13605 which shall be merged into 3.8 (Pranith)
+Item 2: tracked by bz 1313495. Patch 13570 merged upstream. Will merge it to 3.8.
+Item 3: Patch 13607 merged upstream. Will merge downstream.
 
 * **Owners**:
   Dan Lambright, Joseph Fernandes
@@ -1157,7 +1160,12 @@ maintenance of an existing functionality (unless it needs re-design?).
 Both Samba and NFS-Ganesha require improvements for supporting Tiered Volumes.
 
 * **Status**:
-  (13-March-2016) *unknown*
+  (2-April-2016) Four known Samba bugs (below). Tiering is not expected to fully support these protocols in 3.8 timeframe. 
+
+[Bug 1322695] SAMBA+TIER : Wrong message display.On detach tier success the message reflects Tier command failed.
+[Bug 1322518] SAMBA+TIER : File when created from one windows client over the same volume mount is not accessible from other windows client over same volume mount
+[Bug 1322247] SAMBA+TIER : File size is not getting updated when created on windows samba share mount
+[Bug 1323119] SAMBA+TIER : Rafi has RCAed and there is an upstream patch 
 
 * **Owners**:
   Dan Lambright, Joseph Fernandes
