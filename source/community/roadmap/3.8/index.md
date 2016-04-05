@@ -861,7 +861,8 @@ with their restricted context.
   Niels de Vos, Manikandan
 
 * **Feature page:**
-  [Gerrit review](http://review.gluster.org/13789)
+  [Support SELinux extended attributes on Gluster
+  Volumes](https://github.com/gluster/glusterfs-specs/blob/master/accepted/SELinux-client-support.md)
 
 * **Tracker Bug and Patches**:
   [SELinux translator to support setting SELinux contexts on files in a glusterfs
