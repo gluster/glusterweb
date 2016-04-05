@@ -370,7 +370,8 @@ storage and network overhead when copies are made.
   Anoop C S, Jiffin Tony Thottan
 
 * **Feature page**:
-  https://review.gluster.org/#/c/13399/
+  [Trash feature
+  improvements](https://github.com/gluster/glusterfs-specs/blob/master/accepted/Trash-Improvements.md)
 
 * **Tracker Bug and Patches**:
   <http://review.gluster.org/#/q/topic:bug-1264849+OR+topic:bug-1264847+OR+topic:bug-1264853+OR+topic:bug-1264857>
