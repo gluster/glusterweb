@@ -8,14 +8,6 @@ tags: events
  Gluster Events Calendar 
 =============
 
-[Incontro DevOps](http://www.incontrodevops.it) 
----------
-
-<b>Date</b>: April 1, 2016
-
-<b>Location</b>: Bologna, Italy
-
-
 [Vault](http://events.linuxfoundation.org/events/vault)
 ---------
 
