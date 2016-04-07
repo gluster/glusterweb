@@ -610,14 +610,14 @@ Any new feature for glusterfs should have correspnding tests written in distaf. 
 will be run periodically by a Jenkins job. Currently the job will be run inside CentOS CI infra.
 
 * **Status**:
-  (10-March-2016) Work in progress, partially posted to the `centos-ci`
+  (7-April-2016) Work in progress, partially posted to the `centos-ci`
   directory in the [patch-acceptance-tests] repository.
 
 * **Owners**:
   M S Vishwanath Bhat, Raghavendra Talur, Kaushal
 
 * **Feature page:**
-  ...
+  [proposal in Gerrit](http://review.gluster.org/12048)
 
 * **Tracker Bug and Patches**:
   N/A
@@ -626,13 +626,15 @@ will be run periodically by a Jenkins job. Currently the job will be run inside 
   *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
 
 * **DiSTAF Testcase**:
-  N/A
+  [Jenkins job in the CentOS CI](https://ci.centos.org/view/Gluster/job/gluster_nightly_distaf/)
 
 * **Release Notes**:
   *(link to email in gluster-devel archive with release notes)*
 
 * **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
+  * [Adding the distaf test cases requirement to Developement Workflow](https://github.com/gluster/glusterdocs/pull/100)
+  * [README](https://github.com/gluster/distaf/blob/master/README.md)
+  * [HOWTO](https://github.com/gluster/distaf/blob/master/docs/HOWTO.md)
 
 * **Integration and Eco-system**
   ...
