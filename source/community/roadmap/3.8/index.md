@@ -327,6 +327,48 @@ storage and network overhead when copies are made.
   *(link to emails in gluster-devel archive with blog and video)*
 
 
+## Quota Enhancements
+
+### Enhance Quota enable/disable in glusterd
+Previously when quota is enabled, quota crawl was done from the single mount
+point, this is very slow process if there are huge number of files in the volume.
+This RFE will now spawn crawl process for each brick in the volume, and  files
+are checked in parallel independently for each brick. This improves the speed
+of crawling process for entire files-system.
+
+
+* **Status**:
+  (12-April-2016) Patches under review.
+
+* **Owners**:
+  Vijaikumar, Manikandan
+
+* **Feature Page**:
+  [Design Doc](https://github.com/gluster/glusterfs-specs/blob/master/under_review/quota-enhancements.md)
+
+* **Tracker Bug and Patches**:
+  [Enhance Quota enable/disable process](http://review.gluster.org/#/q/status:open+project:glusterfs+branch:master+topic:bug-1290766)
+  [Design Doc](https://github.com/gluster/glusterfs-specs/blob/master/under_review/quota-enhancements.md)
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  ...
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
+
+
 ## Miscellaneous Enhancements
 
 ### AFR self-heal performance improvements
@@ -1181,41 +1223,6 @@ Both Samba and NFS-Ganesha require improvements for supporting Tiered Volumes.
 
 * **Tracker Bug and Patches**:
   ...
-
-* **Maintainer**
-  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
-
-* **DiSTAF Testcase**:
-  ...
-
-* **Release Notes**:
-  *(link to email in gluster-devel archive with release notes)*
-
-* **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
-
-* **Integration and Eco-system**
-  ...
-
-* **Advertisement**
-  *(link to emails in gluster-devel archive with blog and video)*
-
-## Quota Enhancements
-
-### Enhance Quota enable/disable in glusterd
-***TODO***: add summary
-
-* **Status**:
-  (4-April-2016) Patches under review.
-
-* **Owners**:
-  Vijaikumar, Manikandan
-
-* **Feature Page**:
-  
-
-* **Tracker Bug and Patches**:
-  [Enhance Quota enable/disable process](http://review.gluster.org/#/q/status:open+project:glusterfs+branch:master+topic:bug-1290766)
 
 * **Maintainer**
   *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
