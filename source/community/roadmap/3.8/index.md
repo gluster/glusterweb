@@ -620,7 +620,7 @@ will be run periodically by a Jenkins job. Currently the job will be run inside 
   [proposal in Gerrit](http://review.gluster.org/12048)
 
 * **Tracker Bug and Patches**:
-  N/A
+  * [DiSTAF base in the glusterfs repository](http://review.gluster.org/13853)
 
 * **Maintainer**
   *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
