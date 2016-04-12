@@ -344,7 +344,7 @@ of crawling process for entire files-system.
   Vijaikumar, Manikandan
 
 * **Feature Page**:
-  
+  [Design Doc](https://github.com/gluster/glusterfs-specs/blob/master/under_review/quota-enhancements.md)
 
 * **Tracker Bug and Patches**:
   [Enhance Quota enable/disable process](http://review.gluster.org/#/q/status:open+project:glusterfs+branch:master+topic:bug-1290766)
