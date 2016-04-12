@@ -94,7 +94,7 @@ by linux kernel. Instead we enforce core mandatory lock semantics at its byte
 range granularity level as detailed below without the help of file mode bits.
 
 * **Status**:
-  (11-March-2016) Patches posted by Anoop, need review etc.
+  (12-April-2016) Patches posted by Anoop, need review etc.
 
 * **Owners**:
   Anoop C S, Rajesh Joseph, Poornima G, Raghavendra Talur
@@ -103,7 +103,8 @@ range granularity level as detailed below without the help of file mode bits.
   <https://review.gluster.org/#/c/12014/>
 
 * **Tracker Bug and Patches**:
-  <https://review.gluster.org/#/q/topic:bug-762184>
+  * [Patches](https://review.gluster.org/#/q/topic:bug-762184)
+  * [Tracker Bug](https://bugzilla.redhat.com/762184)
 
 * **Maintainer**
   *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
@@ -132,7 +133,7 @@ becomes time to announce the deprecation of Gluster/NFS so that users start to
 look at other more serious solutions.
 
 * **Status**:
-  (20-March-2016) Planned.
+  (12-April-2016) In development.
 
 * **Owners**:
   Kaleb Keithley, Niels de Vos
@@ -141,7 +142,8 @@ look at other more serious solutions.
   [under review in Gerrit](http://review.gluster.org/13740)
 
 * **Tracker Bug and Patches**:
-  [patch](http://review.gluster.org/13738)
+  * [patch](http://review.gluster.org/13738)
+  * [Tracker bug](https://bugzilla.redhat.com/1092414)
 
 * **Maintainer**
   Existing maintainer for Gluster/NFS.
@@ -212,7 +214,7 @@ storage and network overhead when copies are made.
 ***TODO***: add summary (Compound operations similar to NFSv4)
 
 * **Status**:
-  (20-March-2016) Feature page posted, design under discussion.
+  (12-April-2016) Feature page posted, design under discussion.
 
 * **Owners**:
   Anuradha Talur
@@ -223,7 +225,8 @@ storage and network overhead when copies are made.
   * [Compound FOPs](https://github.com/gluster/glusterfs-specs/blob/master/under_review/compound-fops.md)
 
 * **Tracker Bug and Patches**:
-  ...
+  * [Tracker bug](https://bugzilla.redhat.com/1303829)
+  * [Patches](http://review.gluster.org/#/q/topic:bug-1303829)
 
 * **Maintainer**
   *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
@@ -374,7 +377,7 @@ storage and network overhead when copies are made.
   improvements](https://github.com/gluster/glusterfs-specs/blob/master/accepted/Trash-Improvements.md)
 
 * **Tracker Bug and Patches**:
-  <http://review.gluster.org/#/q/topic:bug-1264849+OR+topic:bug-1264847+OR+topic:bug-1264853+OR+topic:bug-1264857>
+  * [Patches](http://review.gluster.org/#/q/topic:bug-1264849+OR+topic:bug-1264847+OR+topic:bug-1264853+OR+topic:bug-1264857)
 
 * **Maintainer**
   *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
@@ -756,16 +759,16 @@ file.
 ***TODO***: add summary
 
 * **Status**:
-  (12-March-2016) Design ready.
+  (12-April-2016) Design ready.
 
 * **Owners**:
   Niels de Vos, Csaba Henk
 
 * **Feature page:**
-  <http://review.gluster.org/12118>
+  <https://github.com/gluster/glusterfs-specs/blob/master/under_review/Kerberos.md>
 
 * **Tracker Bug and Patches**:
-  ...
+  <https://bugzilla.redhat.com/show_bug.cgi?id=1326230>
 
 * **Maintainer**
   *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
@@ -1015,7 +1018,7 @@ significantly improve interoperability in mixed operating system environments,
 both when Linux is used as a client and as a server.
 
 * **Status**:
-  (8-March-2016) Userspace `richacl` package is in Fedora, Rajesh has POC
+  (12-April-2016) Userspace `richacl` package is in Fedora, Rajesh has POC
   xlator, needs heavy cleanup and further development.
 
 * **Owners**:
@@ -1025,7 +1028,7 @@ both when Linux is used as a client and as a server.
   * [Feature page in Gerrit](http://review.gluster.org/13791)
 
 * **Tracker Bug and Patches**:
-  ...
+  [Tracker bug](https://bugzilla.redhat.com/1326233)
 
 * **Maintainer**
   *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
@@ -1087,13 +1090,13 @@ both when Linux is used as a client and as a server.
 Gluster should have an operating mode whereby it does not do any management or configuration of external services like NFS-Ganesha or Samba. This is to facilitate integration with things like [storhaug], a Pacemaker-based HA solution for clustered storage platforms.
 
 * **Status**:
-  New proposal
+  (12-April-2016) New proposal
 
 * **Owners**:
   Kaleb Keithley, Jose Rivera
 
 * **Feature Page**:
-  * [Feature page on GitHub](https://github.com/jarrpa/glusterfs-specs/blob/patch-1/under_review/external_management.md)
+  * [Feature page in Gerrit](http://review.gluster.org/13888)
 
 * **Tracker Bug and Patches**:
   ...
