@@ -1094,6 +1094,42 @@ both when Linux is used as a client and as a server.
 * **Advertisement**
   *(link to emails in gluster-devel archive with blog and video)*
 
+### Lock migration
+Lock migration feature will migrate the locks associated with a file during
+rebalance. In the current infra the lock state of a file are lost when a file
+moves across server as part of rebalance.
+
+* **Status**:
+  High Level Design ready. Development in progress.
+
+* **Owners**:
+  Susant Palai,	Raghavendra Gowdappa, Pranith Kumar Karampuri
+
+* **Feature page:**
+  <https://github.com/gluster/glusterfs-specs/blob/master/accepted/Lock-Migration.md>
+
+* **Tracker Bug and Patches**:
+  ...
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  ...
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
+
+
 # At Risk
 
 ### Integrate with external resource management software
