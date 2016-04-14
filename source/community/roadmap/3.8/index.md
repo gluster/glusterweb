@@ -865,40 +865,6 @@ Add WORM-Retention semantics for files on a Gluster Volume.
   *(link to emails in gluster-devel archive with blog and video)*
 
 
-### Throttling xlator
-***TODO***: add summary
-
-* **Status**:
-  (10-March-2016) High Level Design ready.
-
-* **Owners**:
-  Ravishankar N
-
-* **Feature page:**
-  <https://github.com/gluster/glusterfs-specs/blob/master/accepted/throttling.md>
-
-* **Tracker Bug and Patches**:
-  ...
-
-* **Maintainer**
-  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
-
-* **DiSTAF Testcase**:
-  ...
-
-* **Release Notes**:
-  *(link to email in gluster-devel archive with release notes)*
-
-* **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
-
-* **Integration and Eco-system**
-  ...
-
-* **Advertisement**
-  *(link to emails in gluster-devel archive with blog and video)*
-
-
 ### SELinux on Gluster Volumes
 SELinux should be completely supported on a Gluster Volume. Clients that access
 contents on a Gluster Volume should be able to get and set the SELinux context.
@@ -1243,7 +1209,6 @@ Both Samba and NFS-Ganesha require improvements for supporting Tiered Volumes.
   *(link to emails in gluster-devel archive with blog and video)*
 
 
-
 # Moved out to the next minor or major release
 
 ***TODO***: these features need to be moved to Gluster.next planning page.
@@ -1257,6 +1222,42 @@ Directory/Files filters for Geo-replication | Kotresh, Aravinda                 
 Add + Remove brick with Volume Tiering      | Dan Lambright                      | TBD          |
 Volume Tiering                              | Dan Lambright                      | TBD          |
 User and Group Quotas                       | Vijaikumar M, Manikandan           | TBD          |
+
+
+
+### Throttling xlator
+***TODO***: add summary
+
+* **Status**:
+  (14-April-2016) High Level Design ready.
+
+* **Owners**:
+  Ravishankar N
+
+* **Feature page:**
+  <https://github.com/gluster/glusterfs-specs/blob/master/accepted/throttling.md>
+
+* **Tracker Bug and Patches**:
+  ...
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  ...
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
+
 
 [glusterfs-3.8.0]: https://bugzilla.redhat.com/showdependencytree.cgi?maxdepth=1&id=glusterfs-3.8.0
 [glusterfs repository]: https://github.com/gluster/glusterfs
