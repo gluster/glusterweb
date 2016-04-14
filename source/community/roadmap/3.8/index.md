@@ -133,7 +133,7 @@ becomes time to announce the deprecation of Gluster/NFS so that users start to
 look at other more serious solutions.
 
 * **Status**:
-  (12-April-2016) In development.
+  (14-April-2016) In development.
 
 * **Owners**:
   Kaleb Keithley, Niels de Vos
@@ -162,6 +162,8 @@ look at other more serious solutions.
 
 * **Advertisement**
   *(link to emails in gluster-devel archive with blog and video)*
+  * [RFC: beginning to phase out legacy Gluster NFS, to be eventually replaces with   
+    NFS-Ganesha](http://thread.gmane.org/gmane.comp.file-systems.gluster.devel/14896)
 
 
 ### SEEK
