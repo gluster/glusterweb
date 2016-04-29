@@ -304,7 +304,7 @@ storage and network overhead when copies are made.
   Saravanakumar
 
 * **Feature Page**:
-  http://review.gluster.org/13515/
+  [Design Doc](http://review.gluster.org/13515/)
 
 * **Tracker Bug and Patches**:
   <http://review.gluster.org/12417> <http://review.gluster.org/12355>
