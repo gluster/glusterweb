@@ -373,23 +373,29 @@ of crawling process for entire files-system.
 
 ## Miscellaneous Enhancements
 
-### AFR self-heal performance improvements
-***TODO***: add summary
+### Granular Entry self-heal for AFR
+As of today, entry self-heal and data-selfheal in AFR are network/ CPU
+intensive operations. This can lead to clients observing reduced performance/
+stalling when accessing a volume when self-heal is in progress. The changes
+proposed below make entry-self-heal more granular.
 
 * **Status**:
-  (10-March-2016) Patches posted.
+  (5-May-2016) Development completed, needs documentation, DiSTAF,
+  advertisement.
 
 * **Owners**:
   Anuradha, Krutika, Pranith, Ravi
 
 * **Feature page**:
-  <http://review.gluster.org/#/c/12257>
+  [Granular Entry self-heal](https://github.com/gluster/glusterfs-specs/tree/master/done/GlusterFS 3.8/granular-entry-self-healing.md)
 
 * **Tracker Bug and Patches**:
-  ...
+  * [Bug 1269461](https://bugzilla.redhat.com/1269461)
+  * [cluster/afr: Entry self-heal performance enhancements](http://review.gluster.org/12442)
+  * [afr/index: changes for granular entry self-heal](http://review.gluster.org/12482)
 
 * **Maintainer**
-  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+  Current AFR maintainer(s).
 
 * **DiSTAF Testcase**:
   ...
