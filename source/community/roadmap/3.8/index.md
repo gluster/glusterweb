@@ -770,40 +770,6 @@ file.
 
 # Experimental
 
-### Kerberos for Gluster protocols
-***TODO***: add summary
-
-* **Status**:
-  (12-April-2016) Design ready.
-
-* **Owners**:
-  Niels de Vos, Csaba Henk
-
-* **Feature page:**
-  <https://github.com/gluster/glusterfs-specs/blob/master/under_review/Kerberos.md>
-
-* **Tracker Bug and Patches**:
-  <https://bugzilla.redhat.com/show_bug.cgi?id=1326230>
-
-* **Maintainer**
-  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
-
-* **DiSTAF Testcase**:
-  ...
-
-* **Release Notes**:
-  *(link to email in gluster-devel archive with release notes)*
-
-* **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
-
-* **Integration and Eco-system**
-  ...
-
-* **Advertisement**
-  *(link to emails in gluster-devel archive with blog and video)*
-
-
 ### WORM, Retention and Compliance
 Add WORM-Retention semantics for files on a Gluster Volume.
 
