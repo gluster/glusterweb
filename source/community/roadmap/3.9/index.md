@@ -217,6 +217,47 @@ NFS does it.
 * **Advertisement**
   TODO
 
+
+### RichACL support for GlusterFS
+[Richacls] are an implementation of NFSv4 ACLs which has been extended by file
+masks to better fit the standard POSIX file permission model. The main goal is
+to provide a consistent file permission model locally as well as over various
+remote file system protocols like NFSv4 and CIFS; this is expected to
+significantly improve interoperability in mixed operating system environments,
+both when Linux is used as a client and as a server.
+
+* **Status**:
+  (12-April-2016) Userspace `richacl` package is in Fedora, Rajesh has POC
+  xlator, needs heavy cleanup and further development.
+
+* **Owners**:
+  Rajesh Joseph + Volunteers
+
+* **Feature Page**:
+  * [Feature page in Gerrit](http://review.gluster.org/13791)
+
+* **Tracker Bug and Patches**:
+  [Tracker bug](https://bugzilla.redhat.com/1326233)
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  **TODO**: Samba/NFS-Ganesha patches/proposal
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
+
+
 # Miscellaneous Features
 
 These features were proposed at one point, and developers would like to see
