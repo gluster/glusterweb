@@ -1208,6 +1208,7 @@ maintenance of an existing functionality (unless it needs re-design?).
 * **Advertisement**
   *(link to emails in gluster-devel archive with blog and video)*
 
+
 ### Samba and NFS-Ganesha support for tiered volumes
 Both Samba and NFS-Ganesha require improvements for supporting Tiered Volumes.
 
@@ -1247,56 +1248,6 @@ Both Samba and NFS-Ganesha require improvements for supporting Tiered Volumes.
   *(link to emails in gluster-devel archive with blog and video)*
 
 
-# Moved out to the next minor or major release
-
-***TODO***: these features need to be moved to Gluster.next planning page.
-
-Feature                                     | Owner(s)                           | Feature Page |
---------------------------------------------|------------------------------------|--------------|
-Inotify                                     | Soumya Koduri                      | TBD          |
-pNFS Layout Recall                          | Jiffin Tony Thottan, Soumya Koduri | <http://review.gluster.org/#/c/12367/3/wip/pNFS-Layout-Recall.md> |
-iSCSI access for Gluster                    | Raghavendra Bhat, Vijay Bellur     | TBD          |
-Directory/Files filters for Geo-replication | Kotresh, Aravinda                  | TBD          |
-Add + Remove brick with Volume Tiering      | Dan Lambright                      | TBD          |
-Volume Tiering                              | Dan Lambright                      | TBD          |
-User and Group Quotas                       | Vijaikumar M, Manikandan           | TBD          |
-
-
-
-### Throttling xlator
-***TODO***: add summary
-
-* **Status**:
-  (14-April-2016) High Level Design ready.
-
-* **Owners**:
-  Ravishankar N
-
-* **Feature page:**
-  <https://github.com/gluster/glusterfs-specs/blob/master/accepted/throttling.md>
-
-* **Tracker Bug and Patches**:
-  ...
-
-* **Maintainer**
-  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
-
-* **DiSTAF Testcase**:
-  ...
-
-* **Release Notes**:
-  *(link to email in gluster-devel archive with release notes)*
-
-* **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
-
-* **Integration and Eco-system**
-  ...
-
-* **Advertisement**
-  *(link to emails in gluster-devel archive with blog and video)*
-
-
 [glusterfs-3.8.0]: https://bugzilla.redhat.com/showdependencytree.cgi?maxdepth=1&id=glusterfs-3.8.0
 [glusterfs repository]: https://github.com/gluster/glusterfs
 [glusterfs-specs repository]: https://github.com/gluster/glusterfs-specs
@@ -1305,6 +1256,4 @@ User and Group Quotas                       | Vijaikumar M, Manikandan          
 [Guidelines for maintainers]: http://gluster.readthedocs.org/en/latest/Contributors-Guide/Guidelines-For-Maintainers/
 [Admin Guide]: ...
 [DiSTAF]: https://github.com/gluster/distaf
-[Richacls]: http://www.bestbits.at/richacl/
-[Storhaug]: https://github.com/linux-ha-storage/storhaug
 [ansible]: https://ansible.com/
