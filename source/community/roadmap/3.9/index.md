@@ -43,6 +43,41 @@ the next major release. The format is taken from the [3.8 roadmap](../3.8/).
   *(link to emails in gluster-devel archive with blog and video)*
 
 
+### Trash Improvements
+***TODO***: add summary
+
+* **Status**:
+  (5-May-2016) Patches posted, under review (TODO: all of them?).
+
+* **Owners**:
+  Anoop C S, Jiffin Tony Thottan
+
+* **Feature page**:
+  [Trash feature
+  improvements](https://github.com/gluster/glusterfs-specs/blob/master/accepted/Trash-Improvements.md)
+
+* **Tracker Bug and Patches**:
+  * [Patches](http://review.gluster.org/#/q/topic:bug-1264849+OR+topic:bug-1264847+OR+topic:bug-1264853+OR+topic:bug-1264857)
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  ...
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
+
+
 # Miscellaneous Features
 
 These features were proposed at one point, and developers would like to see
