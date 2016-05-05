@@ -852,41 +852,6 @@ leases/delegations for the files.
 * **Advertisement**
   *(link to emails in gluster-devel archive with blog and video)*
 
-### Native sub-directory mounts
-Native support for sub-directory mounts for GlusterFS volumes, just like how
-NFS does it.
-
-* **Status**:
-  Design being finalized. Existing patches present.
-
-* **Owners**:
-  Kaushal M, Pranith K
-
-* **Feature page:**
-  <https://github.com/gluster/glusterfs-specs/blob/master/under_review/subdirectory-mounts.md>
-  - _To be moved to accepted after more cleaning_
-
-* **Tracker Bug and Patches**:
-  [Bug 892808](https://bugzilla.redhat.com/show_bug.cgi?id=892808)
-
-* **Maintainer**
-  TBD
-
-* **DiSTAF Testcase**:
-  TODO
-
-* **Release Notes**:
-  TODO
-
-* **User Documentation**
-  TODO
-
-* **Integration and Eco-system**
-  ...
-
-* **Advertisement**
-  TODO
-
 ### RichACL support for GlusterFS
 [Richacls] are an implementation of NFSv4 ACLs which has been extended by file
 masks to better fit the standard POSIX file permission model. The main goal is
