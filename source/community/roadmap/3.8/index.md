@@ -100,7 +100,7 @@ range granularity level as detailed below without the help of file mode bits.
   Anoop C S, Rajesh Joseph, Poornima G, Raghavendra Talur
 
 * **Feature Page**:
-  <https://review.gluster.org/#/c/12014/>
+  [Mandatory Locks](https://github.com/gluster/glusterfs-specs/tree/master/done/GlusterFS 3.8/Mandatory Locks.md)
 
 * **Tracker Bug and Patches**:
   * [Patches](https://review.gluster.org/#/q/topic:bug-762184)
