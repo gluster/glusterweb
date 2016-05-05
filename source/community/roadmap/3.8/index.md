@@ -890,40 +890,6 @@ moves across server as part of rebalance.
 
 # At Risk
 
-### Integrate with external resource management software
-Gluster should have an operating mode whereby it does not do any management or configuration of external services like NFS-Ganesha or Samba. This is to facilitate integration with things like [storhaug], a Pacemaker-based HA solution for clustered storage platforms.
-
-* **Status**:
-  (12-April-2016) New proposal
-
-* **Owners**:
-  Kaleb Keithley, Jose Rivera
-
-* **Feature Page**:
-  * [Feature page in Gerrit](http://review.gluster.org/13888)
-
-* **Tracker Bug and Patches**:
-  ...
-
-* **Maintainer**
-  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
-
-* **DiSTAF Testcase**:
-  ...
-
-* **Release Notes**:
-  *(link to email in gluster-devel archive with release notes)*
-
-* **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
-
-* **Integration and Eco-system**
-  **TODO**: Samba/NFS-Ganesha patches/proposal
-
-* **Advertisement**
-  *(link to emails in gluster-devel archive with blog and video)*
-
-
 ### Tiering Performance Enhancements
 **TODO**: this should probably be split in multiple features? (2) and (3) are
 real features that should be called out to users, (1) is close to standard

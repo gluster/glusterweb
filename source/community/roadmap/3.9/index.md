@@ -294,6 +294,80 @@ both when Linux is used as a client and as a server.
   *(link to emails in gluster-devel archive with blog and video)*
 
 
+### Integrate with external resource management software
+Gluster should have an operating mode whereby it does not do any management or
+configuration of external services like NFS-Ganesha or Samba. This is to
+facilitate integration with things like [storhaug], a Pacemaker-based HA
+solution for clustered storage platforms.
+
+* **Status**:
+  (12-April-2016) New proposal
+
+* **Owners**:
+  Kaleb Keithley, Jose Rivera
+
+* **Feature Page**:
+  * [Feature page in Gerrit](http://review.gluster.org/13888)
+
+* **Tracker Bug and Patches**:
+  ...
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  **TODO**: Samba/NFS-Ganesha patches/proposal
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
+
+
+### Integrate with external resource management software
+Gluster should have an operating mode whereby it does not do any management or
+configuration of external services like NFS-Ganesha or Samba. This is to
+facilitate integration with things like [storhaug], a Pacemaker-based HA
+solution for clustered storage platforms.
+
+* **Status**:
+  (12-April-2016) New proposal
+
+* **Owners**:
+  Kaleb Keithley, Jose Rivera
+
+* **Feature Page**:
+  * [Feature page in Gerrit](http://review.gluster.org/13888)
+
+* **Tracker Bug and Patches**:
+  ...
+
+* **Maintainer**
+  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
+
+* **DiSTAF Testcase**:
+  ...
+
+* **Release Notes**:
+  *(link to email in gluster-devel archive with release notes)*
+
+* **User Documentation**
+  *(link to the pull request for the [Admin Guide] or other official docs)*
+
+* **Integration and Eco-system**
+  **TODO**: Samba/NFS-Ganesha patches/proposal
+
+* **Advertisement**
+  *(link to emails in gluster-devel archive with blog and video)*
+
+
 # Miscellaneous Features
 
 These features were proposed at one point, and developers would like to see
