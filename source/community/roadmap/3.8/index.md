@@ -852,41 +852,6 @@ leases/delegations for the files.
 * **Advertisement**
   *(link to emails in gluster-devel archive with blog and video)*
 
-### Share modes / Share reservations
-***TODO***: add summary
-
-* **Status**:
-  (20-March-2016) Raghavendra Talur has proof on concept patches, need cleanup
-  and posting.
-
-* **Owners**:
-  Raghavendra Talur + Poornima G, Soumya Koduri, Rajesh Joseph, Anoop C S
-
-* **Feature Page**:
-  * [Feature page in Gerrit](http://review.gluster.org/13780)
-  * [Design](http://review.gluster.org/13779)
-
-* **Tracker Bug and Patches**:
-  [Gluster should provide "share mode"/"share reservation" support](https://bugzilla.redhat.com/1263231)
-
-* **Maintainer**
-  *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
-
-* **DiSTAF Testcase**:
-  ...
-
-* **Release Notes**:
-  *(link to email in gluster-devel archive with release notes)*
-
-* **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
-
-* **Integration and Eco-system**
-  **TODO**: Samba/NFS-Ganesha patches/proposal
-
-* **Advertisement**
-  *(link to emails in gluster-devel archive with blog and video)*
-
 ### Lock migration
 Lock migration feature will migrate the locks associated with a file during
 rebalance. In the current infra the lock state of a file are lost when a file
