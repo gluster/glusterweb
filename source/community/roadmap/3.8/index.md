@@ -115,8 +115,8 @@ range granularity level as detailed below without the help of file mode bits.
 * **Release Notes**:
   *(link to email in gluster-devel archive with release notes)*
 
-* **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
+* **User Documentation**:
+  [Admin Guide](http://gluster.readthedocs.org/en/latest/Administrator%20Guide/Mandatory%20Locks/)
 
 * **Integration and Eco-system**
   **TODO**: Samba/NFS-Ganesha patches/proposal
