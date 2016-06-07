@@ -773,8 +773,9 @@ file.
 ### WORM, Retention and Compliance
 Add WORM-Retention semantics for files on a Gluster Volume.
 
-* **Status**:
-  (9-March-2016) Design ready, partial proof of concept code.
+* **Status**: (25-May-2016)
+  1. tracked by [bz 1334836] (https://bugzilla.redhat.com/show_bug.cgi?id=1334836) [Patch 14367] (http://review.gluster.org/#/c/14367/) merged upstream
+  2. tracked by [bz 1326308] (https://bugzilla.redhat.com/show_bug.cgi?id=1326308) [Patch 13429] (http://review.gluster.org/#/c/13429/) merged upstream
 
 * **Owners**:
   Joseph Elwin Fernandes, Karthik Subrahmanya
@@ -783,6 +784,7 @@ Add WORM-Retention semantics for files on a Gluster Volume.
   <http://review.gluster.org/13538>
 
 * **Tracker Bug and Patches**:
+* tracked by [bz 1333263] (https://bugzilla.redhat.com/show_bug.cgi?id=1333263) [Patch 14222] (http://review.gluster.org/#/c/14222/)
   ...
 
 * **Maintainer**
