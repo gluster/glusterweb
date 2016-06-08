@@ -713,7 +713,7 @@ file.
   ...
 
 * **Tracker Bug and Patches**:
-  ...
+  [Review request](https://bugzilla.redhat.com/show_bug.cgi?id=1331704)
 
 * **Maintainer**
   *(patch to additional [`MAINTAINERS`][MAINTAINERS] entry)*
@@ -725,7 +725,7 @@ file.
   *(link to email in gluster-devel archive with release notes)*
 
 * **User Documentation**
-  *(link to the pull request for the [Admin Guide] or other official docs)*
+  [Admin Guide](http://gluster.readthedocs.org/en/latest/Administrator%20Guide/GlusterFS%20Coreutils/)
 
 * **Integration and Eco-system**
   ...
