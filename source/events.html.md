@@ -28,9 +28,12 @@ Current meetup groups:
 Upcoming Meetups:
 ------------
 
-[Red Hat Summit](http://www.redhat.com/summit/)
+[LinuxCon Japan](http://events.linuxfoundation.org/events/linuxcon-japan)
 -------------
-<b>Date:</b> 26-30 June, 2016
+<b>Date:</b> Wednesday, July 13, 6pm 
 
-<b>Location:</b> San Francisco, Moscone Center 
+<b>Location:</b> Hotel Chinzanso Tokyo(http://www.hotel-chinzanso-tokyo.com/) - Ruby 5
+
+Come talk about new features for Gluster! 
+
 
