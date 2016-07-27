@@ -160,6 +160,17 @@ http://review.gluster.org/13115
 * **Tracker Bug and Patches**:
 http://review.gluster.org/14248
 
+### CLI to get state representation of a cluster from the local glusterd pov
+* **Owners**:
+Samikshan Bairagya
+
+* **Feature Page**:
+http://review.gluster.org/14962
+
+* **Tracker Bug and Patches**:
+  * [CLI to get local state representation for a cluster](https://bugzilla.redhat.com/show_bug.cgi?id=1353156)
+  * [Patch on gerrit](http://review.gluster.org/14873)
+
 [Admin Guide]: ...
 [Richacls]: http://www.bestbits.at/richacl/
 [Storhaug]: https://github.com/linux-ha-storage/storhaug
