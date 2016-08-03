@@ -171,6 +171,16 @@ http://review.gluster.org/14962
   * [CLI to get local state representation for a cluster](https://bugzilla.redhat.com/show_bug.cgi?id=1353156)
   * [Patch on gerrit](http://review.gluster.org/14873)
 
+### Posix-locks Reclaim support
+* **Owners**:
+Soumya Koduri
+
+* **Feature Page**:
+http://review.gluster.org/15053
+
+* **Tracker Bug and Patches**:
+http://review.gluster.org/14986
+
 [Admin Guide]: ...
 [Richacls]: http://www.bestbits.at/richacl/
 [Storhaug]: https://github.com/linux-ha-storage/storhaug
