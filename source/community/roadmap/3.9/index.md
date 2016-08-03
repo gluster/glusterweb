@@ -115,21 +115,6 @@ solution for clustered storage platforms.
   ...
 
 
-### Integrate with external resource management software
-Gluster should have an operating mode whereby it does not do any management or
-configuration of external services like NFS-Ganesha or Samba. This is to
-facilitate integration with things like [storhaug], a Pacemaker-based HA
-solution for clustered storage platforms.
-
-* **Owners**:
-  Kaleb Keithley, Jose Rivera
-
-* **Feature Page**:
-  * [Feature page in Gerrit](http://review.gluster.org/13888)
-
-* **Tracker Bug and Patches**:
-  ...
-
 ### Python Wrappers for Gluster CLI Commands
 * **Owners**:
   Aravinda VK
