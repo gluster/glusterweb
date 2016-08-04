@@ -140,6 +140,13 @@ solution for clustered storage platforms.
 * **Tracker Bug and Patches**:
 http://review.gluster.org/#/c/14951/
 
+### Package and ship libgfapi-python
+* **Owners**:
+  Prashanth Pai
+
+* **Repo**:
+  https://github.com/gluster/libgfapi-python
+
 ### Management REST APIs
 * **Owners**:
 Aravinda VK
