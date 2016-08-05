@@ -25,15 +25,20 @@ Current meetup groups:
 ---------
 
 
-Upcoming Meetups:
+Upcoming Events:
 ------------
 
-[LinuxCon Japan](http://events.linuxfoundation.org/events/linuxcon-japan)
+[LinuxCon Europe](http://events.linuxfoundation.org/events/linuxcon-europe)
 -------------
-<b>Date:</b> Wednesday, July 13, 6pm 
+<b>Date:</b> October 4-6 
 
-<b>Location:</b> Hotel Chinzanso Tokyo(http://www.hotel-chinzanso-tokyo.com/) - Ruby 5
+<b>Location:</b>Intercontinental Berlin, Berlin, Germany 
 
-Come talk about new features for Gluster! 
+
+[Gluster Developer Summit](https://www.gluster.org/events/summit2016/)
+-------------
+<b>Date:</b> October 6-7
+
+<b>Location:</b>Intercontinental Berlin, Berlin, Germany 
 
 
