@@ -173,6 +173,18 @@ http://review.gluster.org/15053
 * **Tracker Bug and Patches**:
 http://review.gluster.org/14986
 
+### Deprecate striped volumes
+
+* **Owners**:
+Vijay Bellur, Niels de Vos
+
+* **Feature Page**:
+***to be done***
+
+* **Tracker Bug and Patches**:
+  * [Bug 1364706](https://bugzilla.redhat.com/1364706) - Deny creation of striped volumes and warn users when strip is in use
+
+
 [Admin Guide]: ...
 [Richacls]: http://www.bestbits.at/richacl/
 [Storhaug]: https://github.com/linux-ha-storage/storhaug
