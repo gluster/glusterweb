@@ -184,7 +184,7 @@ Vijay Bellur, Niels de Vos
 * **Tracker Bug and Patches**:
   * [Bug 1364706](https://bugzilla.redhat.com/1364706) - Deny creation of striped volumes and warn users when strip is in use
 
-### Python Wrappers for Gluster CLI Commands
+### Improvements in NFS-Ganesha intergration
 * **Owners**:
 Jiffin Tony Thottan, Soumya Koduri
 
@@ -192,8 +192,8 @@ Jiffin Tony Thottan, Soumya Koduri
 [Improvements in NFS-Ganesha intergration](http://review.gluster.org/#/c/15105/)
 
 * **Tracker Bug and Patches**:
-[Bug 1355956](https://bugzilla.redhat.com/show_bug.cgi?id=1355956)
-[Patches] (http://review.gluster.org/#/q/message:ganesha+status:open+branch:master+owner:self)
+ * [Bug 1355956](https://bugzilla.redhat.com/show_bug.cgi?id=1355956) 
+ * [Patches](http://review.gluster.org/#/q/message:ganesha+status:open+branch:master+owner:self)
 
 [Admin Guide]: ...
 [Richacls]: http://www.bestbits.at/richacl/
