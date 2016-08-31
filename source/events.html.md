@@ -34,6 +34,14 @@ Upcoming Events:
 
 Toronto, Westin Harbour Castle
 
+
+[Open Source Backup Conference](http://osbconf.org)
+-------------
+<b>Date:</b> September 26-27
+
+NH Hotel Mediapark, Cologne, Germany
+
+
 [LinuxCon Europe](http://events.linuxfoundation.org/events/linuxcon-europe)
 -------------
 <b>Date:</b> October 4-6 
