@@ -28,13 +28,6 @@ Current meetup groups:
 Upcoming Events:
 ------------
 
-[LinuxCon North America, ContainerCon North America](http://events.linuxfoundation.org/events/linuxcon-north-america)
--------------
-<b>Date:</b> August 22-24, 2016
-
-Toronto, Westin Harbour Castle
-
-
 [Open Source Backup Conference](http://osbconf.org)
 -------------
 <b>Date:</b> September 26-27
