@@ -8,9 +8,9 @@ Local Meetups
 Find other Gluster users and developers near you!
 
 
-Start a meetup! 
+Start a meetup!
 
-Current meetup groups: 
+Current meetup groups:
 
 
 
@@ -37,16 +37,16 @@ NH Hotel Mediapark, Cologne, Germany
 
 [LinuxCon Europe](http://events.linuxfoundation.org/events/linuxcon-europe)
 -------------
-<b>Date:</b> October 4-6 
+<b>Date:</b> October 4-6
 
-Intercontinental Berlin, Berlin, Germany 
+Intercontinental Berlin, Berlin, Germany
 
 
 [Gluster Developer Summit](https://www.gluster.org/events/summit2016/)
 -------------
 <b>Date:</b> October 6-7
 
-Intercontinental Berlin, Berlin, Germany 
+Intercontinental Berlin, Berlin, Germany
 
 
 [NFS Bake-a-Thon](http://nfsv4bat.org)
@@ -58,7 +58,7 @@ Westford, Massachusetts
 
 [Linux Conf Australia](https://hobart.lca2017.org/)
 -------------
-<b>Date:</b> January 16-20, 2107
+<b>Date:</b> January 16-20, 2017
 
 Hobart, Wrest Point Convention Centre
 
