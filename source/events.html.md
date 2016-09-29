@@ -42,7 +42,7 @@ NH Hotel Mediapark, Cologne, Germany
 Intercontinental Berlin, Berlin, Germany
 
 
-[Gluster Developer Summit](https://www.gluster.org/events/summit2016/)
+[Gluster Developer Summit](/events/summit2016/)
 -------------
 <b>Date:</b> October 6-7
 
