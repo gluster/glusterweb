@@ -10,7 +10,7 @@
         %span.icon-bar
         %span.icon-bar
       %a.navbar-brand( href="/" title="Home" )
-        %span#logo 
+        %span#logo
           %i.fa.fa.fa-fw.fa-home
           Gluster
         -# =image_tag "/images/logo.svg", id: "logo", class: "logo isSVG", alt: data.site.name
@@ -45,7 +45,7 @@
             %li
               %a{ :href=>"http://gluster.readthedocs.org/en/latest/Quick-Start-Guide/Quickstart/" }
                 %strong
-                  Quick Start Guide 
+                  Quick Start Guide
                 %span.text-muted &mdash; Start here if you are new!
             %li
               %a{ :href=>"http://gluster.readthedocs.org/en/latest/Install-Guide/Overview/" }
@@ -63,7 +63,7 @@
             %li
               %a{ :href=>"http://gluster.readthedocs.org/en/latest/" }
                 More documentation...
-            
+
         %li.dropdown
           %a.dropdown-toggle( href="#" data-toggle="dropdown" role="button" aria-expanded="false" )
             %i.fa.fa-lg.fa-fw.fa-bullhorn
@@ -73,6 +73,9 @@
             %li
               %a{ :href=>"/community/" }
                 How to get involved?
+            %li
+              %a{ :href=>"/community/outreachy" }
+                Outreachy
             %li
               %a{ :href=>"http://github.com/gluster" }
                 Gluster @ Github - Development repositories for Gluster
@@ -85,7 +88,7 @@
 
 
         %li
-          %a{ :href=>"/consultants/" } 
+          %a{ :href=>"/consultants/" }
             %i.fa.fa-lg.fa-fw.fa-heart
             %span.hidden-sm Support
 

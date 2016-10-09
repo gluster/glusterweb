@@ -1,66 +1,102 @@
 ---
 navigation: community
 ---
-.row 
-%h1 Gluster and Outreachy! 
+.row
+%h1 Gluster and Outreachy!
 .row
   .col-md-8.pull-left
-  
-%h1 Introducing instrumentation tooling into Gluster
-%p.lead
-  The suite of tools available to undertake performance related
-  instrumentation on Linux has improved over the period of years. As
-  various layered products - clustered applications; distributed storage
-  and such were adopted and deployed at large scale, administrators
-  have constantly voiced a need to improve upon the methods, tools and
-  data processing capabilities of the tools.
-%p.lead
-  Gluster is a software defined distributed storage system which would
-  readinly benefit of a structured approach to instrumentation. There
-  already exist known methods to trace specific issues on the Gluster
-  stack. These include and are not limited to SystemTap, PCP, and
-  read-write performance tools like iozone and such.
-%p.lead
-  The scope of the project is to (a) identify a first pass set of
-  instrumentation framework to be adopted and made available to the
-  community as a recommended approach (b) design, develop, deploy and
-  evangelize a set of working examples of instrumentation hooks which
-  provide adequate spectrum of information (c) document the usage of the
-  framework in a variety of deployment enviroments viz. bare-metal,
-  hyperconverged and public cloud deployments
-  %p.lead Initial Contribution: We intend this exercise to help applicants familiarize themselves with Gluster and also run some performance tests against a Gluster setup. In addition to this, an understanding of how the applicant percives instrumentation and analysis of the results from such an exercise. Part or most of the instrumentation developed as a part of this project would land in the Gluster bench project [1]. As an initial contribution an applicant could attempt the following:
-%p.lead * Run the basic bench test provided in the repo [2] against a Gluster cluster  
-%p.lead * Provide the resulting results 
-%p.lead * Additionally provide one or more system resource usage gathered during the run, with optional analysis of the same
-%p.lead [1] https://github.com/gluster/gbench 
-%p.lead [2] https://github.com/gluster/gbench/tree/master/bench-tests/bt-0000-0001
-%p.lead When you're finished with this, please add your contribution to the gluster-devel@gluster.org mailing list for review. 
-
-%h1
-  Operator focused documentation for Gluster
-%p.lead
-  Documentation is always hard in large open source projects!
-  There are issues with stale documentation; correctness of
-  the content; focus and approach and even whether it enables a
-  reasonably proficient administrator to get up to speed.
-%p.lead
-  The scope of this project to create a first version of the
-  documentation and content which can be consumed by operators intending
-  to bootstrap Gluster with technologies like Kubernetes and
-  OpenShift. Within the scope is the testing and documentation of the
-  sequence of steps; creating a playbook can be easily extended and
-  refreshed; adding any demo videos and such which are supplementary
-  companions to the documentation. The target audience for this set of
-  content is someone planning to use Gluster as a persistent store for
-  applications which are managed via Kubernetes etc
-%p.lead
-  At the end of the project the candidate will have acquired a
-  sufficient depth and understanding of Gluster in a micro-services
-  environment; creating scripts to build and tear-down small set-ups;
-  interview operators and developers to enhance documentation.
-  %p.lead To make an initial contribution, please review our current documentation at https://gluster.readthedocs.io/en/latest/ for our overall project. Please choose something in our documentation that you'd like to make a meaningful improvement to, and submit a pull request. As you do so, please tag github user '@amye' with your pull request for review. 
 
 %h2 Schedule
-%p.lead October 17 - application deadline
-%p.lead November 8 - selection decisions are made
-%p.lead December 6 through March 6 - internships 
+%p.lead
+  Application deadline:
+  %strong
+    17 Oct 2016
+%p.lead
+  Selection decisions are made:
+  %strong
+    8 Nov 2016
+%p.lead
+  Internships:
+  %strong
+    6 Dec 2016 to 6 Mar 2017
+
+
+%h2 Introducing instrumentation tooling into Gluster
+%p.lead
+  The suite of tools available to undertake performance related instrumentation
+  on Linux has improved over the period of years. As various layered products -
+  clustered applications; distributed storage and such were adopted and
+  deployed at large scale, administrators have constantly voiced a need to
+  improve upon the methods, tools and data processing capabilities of the
+  tools.
+%p.lead
+  Gluster is a software defined distributed storage system which would readily
+  benefit of a structured approach to instrumentation. There already exist
+  known methods to trace specific issues on the Gluster stack. These include
+  and are not limited to SystemTap, PCP, and read-write performance tools like
+  iozone and such.
+%p.lead
+  The scope of the project is to (a) identify a first pass set of
+  instrumentation framework to be adopted and made available to the community
+  as a recommended approach (b) design, develop, deploy and evangelize a set of
+  working examples of instrumentation hooks which provide adequate spectrum of
+  information (c) document the usage of the framework in a variety of
+  deployment environments viz. bare-metal, hyperconverged and public cloud
+  deployments
+%p.lead
+  Initial Contribution: We intend this exercise to help applicants familiarize
+  themselves with Gluster and also run some performance tests against a Gluster
+  setup. In addition to this, an understanding of how the applicant perceives
+  instrumentation and analysis of the results from such an exercise. Part or
+  most of the instrumentation developed as a part of this project would land in
+  the
+  %a{ :href =>  'https://github.com/gluster/gbench' }
+    Gluster bench project.
+  As an initial contribution an applicant could attempt the following:
+%li.lead
+  Run the basic bench test provided in
+  %a{ :href => 'https://github.com/gluster/gbench/tree/master/bench-tests/bt-0000-0001' }
+    the repo
+  against a Gluster cluster.
+%li.lead Provide the resulting results
+%li.lead
+  Additionally provide one or more system resource usage gathered during the
+  run, with optional analysis of the same
+%p.lead
+  When you're finished with this, please add your contribution to the
+  %a{ :href => 'mailto:gluster-devel@gluster.org' }
+    gluster-devel@gluster.orl
+  mailing list for review.
+
+%h2
+  Operator focused documentation for Gluster
+%p.lead
+  Documentation is always hard in large open source projects!  There are issues
+  with stale documentation; correctness of the content; focus and approach and
+  even whether it enables a reasonably proficient administrator to get up to
+  speed.
+%p.lead
+  The scope of this project to create a first version of the documentation and
+  content which can be consumed by operators intending to bootstrap Gluster
+  with technologies like Kubernetes and OpenShift. Within the scope is the
+  testing and documentation of the sequence of steps; creating a playbook can
+  be easily extended and refreshed; adding any demo videos and such which are
+  supplementary companions to the documentation. The target audience for this
+  set of content is someone planning to use Gluster as a persistent store for
+  applications which are managed via Kubernetes etc
+%p.lead
+  At the end of the project the candidate will have acquired a sufficient depth
+  and understanding of Gluster in a micro-services environment; creating
+  scripts to build and tear-down small set-ups; interview operators and
+  developers to enhance documentation.
+%p.lead
+  To make an initial contribution, please review our current documentation at
+  %a{ :href => 'https://gluster.readthedocs.io/en/latest/' }
+    Read The Docs
+  for our overall project. Please choose something in our documentation that
+  you'd like to make a meaningful improvement to, and submit a pull request. As
+  you do so, please tag github user
+  %a{ :href => 'http://github.com/amye' }
+    @amye
+  with your pull request for review.
+
