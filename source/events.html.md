@@ -28,27 +28,6 @@ Current meetup groups:
 Upcoming Events:
 ------------
 
-[Open Source Backup Conference](http://osbconf.org)
--------------
-<b>Date:</b> September 26-27
-
-NH Hotel Mediapark, Cologne, Germany
-
-
-[LinuxCon Europe](http://events.linuxfoundation.org/events/linuxcon-europe)
--------------
-<b>Date:</b> October 4-6
-
-Intercontinental Berlin, Berlin, Germany
-
-
-[Gluster Developer Summit](/events/summit2016/)
--------------
-<b>Date:</b> October 6-7
-
-Intercontinental Berlin, Berlin, Germany
-
-
 [NFS Bake-a-Thon](http://nfsv4bat.org)
 -------------
 <b>Date:</b>  17-21 October, 2016
