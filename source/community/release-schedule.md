@@ -38,4 +38,4 @@ This is the tentative release schedule for GlusterFS:
 | 3.7     | Maintenance     | 2015-05-15     | 3.10        |            |
 | 3.8     | LTM             | 2016-06-14     | n+4         |            |
 | **3.9** | **STM**         | **2016-11-23** | **n+1**     |            |
-| *3.10*  | *Planned LTM*   |                | *n+4*       |            |
+| *3.10*  | *Planned LTM*   | 2017-02-14     | *n+4*       |            |
