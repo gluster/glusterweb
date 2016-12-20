@@ -26,7 +26,7 @@ GlusterFS are GlusterFS-3.7, GlusterFS-3.8 and GlusterFS-3.9.
 This is the tentative release schedule for GlusterFS:
 
   * **10th of every month:** A minor release of the GlusterFS-3.8 version
-  * **20th of every month:** A minor release of the GlusterFS-3.6 version
+  * **20th of every month:** A minor release of the GlusterFS-3.9 version
   * **30th of every month:** A minor release of the GlusterFS-3.7 version
 
 ## Release Status
