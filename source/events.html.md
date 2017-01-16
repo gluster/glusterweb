@@ -56,3 +56,15 @@ FIT VUT, Brno
 ULB, Brussels
 
 
+[Incontro DevOps Italia](http://www.incontrodevops.it/events/idi2017/) (IDI2017)
+-------------
+<b>Date</b> 10 March, 2017
+
+Bologna, Italy
+
+
+[VAULT](http://events.linuxfoundation.org/events/vault) Linux storage and filesystem conference
+-------------
+<b>Date</b> 22-23 March, 2017
+
+Hyatt Regency Cambridge, Cambridge, MA, USA
