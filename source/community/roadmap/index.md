@@ -6,6 +6,6 @@ and 4.0 releases of Gluster.
 
 3.9 is generally available as of November 2016, 3.10 will be available early in 2017.
 
-Features planned for Gluster 3.10 can be found [here](https://github.com/gluster/glusterfs/milestone/1).
+Features planned for Gluster 3.10 can be found [here](/community/roadmap/3.10/).
 
 Features planned for Gluster 4.0 can be found [here](/community/roadmap/4.0/).
