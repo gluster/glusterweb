@@ -28,34 +28,6 @@ Current meetup groups:
 Upcoming Events:
 ------------
 
-[NFS Bake-a-Thon](http://nfsv4bat.org)
--------------
-<b>Date:</b>  17-21 October, 2016
-
-Westford, Massachusetts
-
-
-[Linux Conf Australia](https://hobart.lca2017.org/)
--------------
-<b>Date:</b> January 16-20, 2017
-
-Hobart, Wrest Point Convention Centre
-
-
-[DevConf](http://devconf.cz/)
--------------
-<b>Date:</b> January 27-29, 2017
-
-FIT VUT, Brno
-
-
-[FOSDEM](https://fosdem.org/2017/)
--------------
-<b>Date:</b> 4-5 February, 2017
-
-ULB, Brussels
-
-
 [Incontro DevOps Italia](http://www.incontrodevops.it/events/idi2017/) (IDI2017)
 -------------
 <b>Date</b> 10 March, 2017
@@ -63,8 +35,15 @@ ULB, Brussels
 Bologna, Italy
 
 
-[VAULT](http://events.linuxfoundation.org/events/vault) Linux storage and filesystem conference
+[Vault](http://events.linuxfoundation.org/events/vault) Linux storage and filesystem conference
 -------------
 <b>Date</b> 22-23 March, 2017
 
 Hyatt Regency Cambridge, Cambridge, MA, USA
+
+
+[Red Hat Summit](https://www.redhat.com/en/summit/2017)
+-------------
+<b>Date:</b> 2-4 May, 2017
+
+Boston, MA 
