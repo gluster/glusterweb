@@ -20,14 +20,7 @@ This new schedule will allow the GlusterFS development team to release new featu
 
 ## Minor Releases
 
-A minor release of each of these
-versions is generally scheduled every month. As of now the active versions of
-GlusterFS are GlusterFS-3.7, GlusterFS-3.8 and GlusterFS-3.9.
-This is the tentative release schedule for GlusterFS:
-
-  * **10th of every month:** A minor release of the GlusterFS-3.8 version
-  * **20th of every month:** A minor release of the GlusterFS-3.9 version
-  * **30th of every month:** A minor release of the GlusterFS-3.7 version
+A minor update release for each maintaned version is generally scheduled monthly. These happen typically on the **10th**, **20th**, and **30th** of the month. The tentative maintenance days are listed in the chart below alongside the maintained versions.
 
 ## Release Status
 
