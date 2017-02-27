@@ -12,11 +12,11 @@ Prior to release 3.8, generally there were 3 active versions of GlusterFS. This 
 
 ## Post-3.8
 
-Going forward, GlusterFS will adopt a schedule of major feature releases approximately every *three* months. Beginning with version 3.8, every-other release will be treated as a Long Term Maintenance (LTM) release, with a planned lifespan of 12 months, and will officially EOL at the **n+4** release. Each interim release will be a Short Term Maintenance (STM) release, with a planned lifespan of only 3 months, and will officially EOL at the **n+1** release.
+Going forward, GlusterFS has adopted a schedule of major feature releases approximately *every three months*. Beginning with version 3.8, every-other release is treated as a **Long Term Maintenance (LTM)** release, with a planned lifespan of 12 months, and will officially EOL at the **n+4** release. Each interim release will be a **Short Term Maintenance (STM)** release, with a planned lifespan of only 3 months, and will officially EOL at the **n+1** release.
 
 ![Gluster Pre-3.8 Release Cycle](/images/gluster_post-3.8_release_cycle-v2.png "Gluster Post-3.8 Release Cycle")
 
-This new schedule will allow the GlusterFS development team to release new features to the community at a much faster pace, while also limiting the number of versions under concurrent maintenance.
+This new schedule allows the GlusterFS development team to release new features to the community at a much faster pace while also limiting the number of versions under concurrent maintenance.
 
 ## Minor Releases
 
