@@ -1,11 +1,7 @@
-Gluster.next is an umbrella term used to refer to the releases that are being
-evolved in the Gluster Community. As of now, we are working on features for 3.10
-and 4.0 releases of Gluster.
+Currently the Gluster community is working on features for 3.11 and 4.0 releases of Gluster.
 
-3.8 is generally available as of June 2016.
+Releases 3.8 and 3.10 are actively maintained, and were generally made available as of June 2016 and February 2017, respectively.
 
-3.9 is generally available as of November 2016, 3.10 will be available early in 2017.
+Since release 3.10, features proposed/targeted for a release are tracked in github, for further roadmap details visit the glusterfs github [projects](https://github.com/gluster/glusterfs/projects/1) page.
 
-Features planned for Gluster 3.10 can be found [here](/community/roadmap/3.10/).
-
-Features planned for Gluster 4.0 can be found [here](/community/roadmap/4.0/).
+Tentative release calender is tracked as github milestones, for further details visit the glusterfs github [milestones](https://github.com/gluster/glusterfs/milestones?direction=asc&sort=due_date&state=open) page.
