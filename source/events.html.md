@@ -12,15 +12,13 @@ Start a meetup!
 
 Current meetup groups:
 
+* [Gluster Silicon Valley Meetp Group](http://www.meetup.com/GlusterFS-Silicon-Valley/)
 
+* [GlusterFS India Meetup Group](http://www.meetup.com/glusterfs-India/)
 
-* [Gluster EventBrite Group](http://gluster.eventbrite.com/)
+* [GlusterFS London Meetup Group](https://www.meetup.com/GlusterFS-Meetup-London/)
 
-
-* [Gluster Silicon-Valley MeetUp Group](http://www.meetup.com/GlusterFS-Silicon-Valley/)
-
-
-* [GlusterFS India MeetUp Group](http://www.meetup.com/glusterfs-India/)
+* [GlusterFS New York City Meetup Group](https://www.meetup.com/GlusterFS-NYC-Meetup/)
 
 ---------
 
@@ -28,14 +26,8 @@ Current meetup groups:
 Upcoming Events:
 ------------
 
-[Incontro DevOps Italia](http://www.incontrodevops.it/events/idi2017/) (IDI2017)
--------------
-<b>Date</b> 10 March, 2017
-
-Bologna, Italy
-
-
-[Vault](http://events.linuxfoundation.org/events/vault) Linux storage and filesystem conference
+[Vault](http://events.linuxfoundation.org/events/vault) 
+Linux storage and filesystem conference
 -------------
 <b>Date</b> 22-23 March, 2017
 
