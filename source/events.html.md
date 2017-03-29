@@ -12,13 +12,15 @@ Start a meetup!
 
 Current meetup groups:
 
-* [Gluster Silicon Valley Meetp Group](http://www.meetup.com/GlusterFS-Silicon-Valley/)
+* [Seattle Meetup Group](https://www.meetup.com/Seattle-Storage-Meetup/)
 
-* [GlusterFS India Meetup Group](http://www.meetup.com/glusterfs-India/)
+* [Silicon Valley Meetup Group](http://www.meetup.com/GlusterFS-Silicon-Valley/)
 
-* [GlusterFS London Meetup Group](https://www.meetup.com/GlusterFS-Meetup-London/)
+* [India Meetup Group](http://www.meetup.com/glusterfs-India/)
 
-* [GlusterFS New York City Meetup Group](https://www.meetup.com/GlusterFS-NYC-Meetup/)
+* [London Meetup Group](https://www.meetup.com/GlusterFS-Meetup-London/)
+
+* [New York City Meetup Group](https://www.meetup.com/GlusterFS-NYC-Meetup/)
 
 ---------
 
