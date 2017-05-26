@@ -31,7 +31,7 @@ A minor update release for each maintaned version is generally scheduled monthly
 | 3.7      | EOL             | 2015-05-15      |                 | 3.10        | 2017-02-27 |
 | 3.8      | LTM             | 2016-06-14      | 10th            | 3.12        |            |
 | 3.9      | EOL             | 2016-11-23      |                 | 3.10        | 2017-02-27 |
-| 3.10     | LTM             | 2017-02-27      | 30th            | **n+4**     |            |
-| **3.11** | **STM**         | **2017-05-30**  |                 | 3.12        |            |
+| 3.10     | LTM             | 2017-02-27      | 30th            | 4.0         |            |
+| **3.11** | **STM**         | **2017-05-30**  |                 | **3.12**    |            |
 | *3.12*   | *Planned LTM*   | *about 2017-08* |                 | *n+4*       |            |
 | *4.0*    | *Planned LTM*   | *about 2017-11* |                 |             |            |
