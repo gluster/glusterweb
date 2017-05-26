@@ -27,17 +27,19 @@ Current meetup groups:
 
 Upcoming Events:
 ------------
+[Open Source Summit Japan](http://events.linuxfoundation.org/events/open-source-summit-japan)
+<b>Date:</b> 31 May  - 2 June
+Tokyo, Japan
 
-[Vault](http://events.linuxfoundation.org/events/vault) 
-Linux storage and filesystem conference
--------------
-<b>Date</b> 22-23 March, 2017
+[LinuxCon China](https://www.lfasiallc.com/linuxcon-containercon-cloudopen-china)
+<b>Date:</b> 19 - 20 June
+Beijing, China 
 
-Hyatt Regency Cambridge, Cambridge, MA, USA
+[Open Source Summit North America](http://events.linuxfoundation.org/events/open-source-summit-north-america)
+<b>Date:</b> 11 - 13 September 
+Los Angeles, California
 
+[Open Source Summit Europe](http://events.linuxfoundation.org/events/open-source-summit-europe)
+<b>Date:</b> 23 - 25 October
+Prague, Czech Republic
 
-[Red Hat Summit](https://www.redhat.com/en/summit/2017)
--------------
-<b>Date:</b> 2-4 May, 2017
-
-Boston, MA 
