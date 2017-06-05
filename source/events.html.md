@@ -27,9 +27,6 @@ Current meetup groups:
 
 Upcoming Events:
 ------------
-[Open Source Summit Japan](http://events.linuxfoundation.org/events/open-source-summit-japan)
-<b>Date:</b> 31 May  - 2 June
-Tokyo, Japan
 
 [LinuxCon China](https://www.lfasiallc.com/linuxcon-containercon-cloudopen-china)
 <b>Date:</b> 19 - 20 June
@@ -43,3 +40,6 @@ Los Angeles, California
 <b>Date:</b> 23 - 25 October
 Prague, Czech Republic
 
+[Gluster Summit 2017](http://www.gluster.org/events/summit2017) 
+<b>Date:</b> 27 - 28 October
+Prague, Czech Republic
