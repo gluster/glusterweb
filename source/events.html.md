@@ -29,17 +29,21 @@ Upcoming Events:
 ------------
 
 [LinuxCon China](https://www.lfasiallc.com/linuxcon-containercon-cloudopen-china)
+
 <b>Date:</b> 19 - 20 June
 Beijing, China 
 
 [Open Source Summit North America](http://events.linuxfoundation.org/events/open-source-summit-north-america)
+
 <b>Date:</b> 11 - 13 September 
 Los Angeles, California
 
 [Open Source Summit Europe](http://events.linuxfoundation.org/events/open-source-summit-europe)
+
 <b>Date:</b> 23 - 25 October
 Prague, Czech Republic
 
 [Gluster Summit 2017](http://www.gluster.org/events/summit2017) 
+
 <b>Date:</b> 27 - 28 October
 Prague, Czech Republic
