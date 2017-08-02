@@ -34,4 +34,4 @@ A minor update release for each maintaned version is generally scheduled monthly
 | 3.10     | LTM             | 2017-02-27      | 30th            | 4.0         |            |
 | **3.11** | **STM**         | **2017-05-30**  | **20th**        | **3.12**    |            |
 | *3.12*   | *Planned LTM*   | *about 2017-08* |                 | *n+4*       |            |
-| *4.0*    | *Planned LTM*   | *about 2017-11* |                 |             |            |
+| *4.0*    | *Planned STM*   | *about 2017-11* |                 |             |            |
