@@ -1,6 +1,6 @@
-Currently the Gluster community is working on features for 3.12 and 4.0 releases of Gluster.
+Currently the Gluster community is working on features for 3.13, and 4.0 release of Gluster.
 
-Releases 3.8, 3.10 and 3.11 are actively maintained, and were generally made available as of June 2016, February 2017, and May 2017 respectively.
+Releases 3.10, and 3.12 are actively maintained, and were generally made available as of February 2017, and August 2017 respectively.
 
 Since release 3.10, features proposed/targeted for a release are tracked in github, for further roadmap details visit the glusterfs github [projects](https://github.com/gluster/glusterfs/projects/1) page.
 
