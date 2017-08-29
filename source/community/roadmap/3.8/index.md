@@ -116,7 +116,7 @@ range granularity level as detailed below without the help of file mode bits.
   *(link to email in gluster-devel archive with release notes)*
 
 * **User Documentation**:
-  [Admin Guide](http://gluster.readthedocs.org/en/latest/Administrator%20Guide/Mandatory%20Locks/)
+  [Admin Guide](http://docs.gluster.org/en/latest/Administrator%20Guide/Mandatory%20Locks/)
 
 * **Integration and Eco-system**
   **TODO**: Samba/NFS-Ganesha patches/proposal
@@ -725,7 +725,7 @@ file.
   *(link to email in gluster-devel archive with release notes)*
 
 * **User Documentation**
-  [Admin Guide](http://gluster.readthedocs.org/en/latest/Administrator%20Guide/GlusterFS%20Coreutils/)
+  [Admin Guide](http://docs.gluster.org/en/latest/Administrator%20Guide/GlusterFS%20Coreutils/)
 
 * **Integration and Eco-system**
   ...
@@ -979,7 +979,7 @@ Both Samba and NFS-Ganesha require improvements for supporting Tiered Volumes.
 [glusterfs-specs repository]: https://github.com/gluster/glusterfs-specs
 [patch-acceptance-tests]: https://github.com/gluster/glusterfs-patch-acceptance-tests/
 [MAINTAINERS]: https://github.com/gluster/glusterfs/blob/master/MAINTAINERS
-[Guidelines for maintainers]: http://gluster.readthedocs.org/en/latest/Contributors-Guide/Guidelines-For-Maintainers/
+[Guidelines for maintainers]: http://docs.gluster.org/en/latest/Contributors-Guide/Guidelines-For-Maintainers/
 [Admin Guide]: ...
 [DiSTAF]: https://github.com/gluster/distaf
 [ansible]: https://ansible.com/
